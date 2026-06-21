@@ -2,7 +2,7 @@
 
 **Combo 1.**
 
-$(1)$ Defina cuando un conjunto $S\subseteq\omega^n\times\Sigma^{\ast m}$ es llamado $\Sigma$-recursivo (no hace falta que defina "función $\Sigma$-recursiva")
+$(1)$ Defina cuando un conjunto $S\subseteq\omega^n\times\Sigma^{\ast m}$ es llamado $\Sigma$-recursivo
 
 $(2)$ Defina $\langle s_1,s_2,\ldots\rangle$
 
@@ -14,7 +14,7 @@ $(5)$ Defina $R(f,\mathcal{G})$ (haga el caso de valores numéricos)
 
 **Combo 2.** Defina:
 
-$(1)$ $d\overset{n}{\vdash}d'$ y $d\overset{\ast}{\vdash}d'$ (no hace falta que defina $\vdash$)
+$(1)$ $d\overset{n}{\vdash}d'$ y $d\overset{\ast}{\vdash}d'$
 
 $(2)$ $L(M)$
 
@@ -26,7 +26,7 @@ $(5)$ $(x)_i$
 
 **Combo 3.**
 
-$(1)$ Defina cuando un conjunto $S\subseteq\omega^n\times\Sigma^{\ast m}$ es llamado $\Sigma$-recursivamente enumerable (no hace falta que defina "función $\Sigma$-recursiva")
+$(1)$ Defina cuando un conjunto $S\subseteq\omega^n\times\Sigma^{\ast m}$ es llamado $\Sigma$-recursivamente enumerable
 
 $(2)$ Defina $s^\le$
 
@@ -84,7 +84,7 @@ $(2)$ "$f$ es $\Sigma$-computable"
 
 $(3)$ "$\mathcal{P}$ computa a $f$"
 
-$(4)$ $M^\le(\mathcal{P})$
+$(4)$ $M^\le(P)$
 
 **Combo 12.** Defina cuando un conjunto $S\subseteq\omega^n\times\Sigma^{\ast m}$ es llamado $\Sigma$-computable, cuando es llamado $\Sigma$-enumerable y defina "el programa $\mathcal{P}$ enumera a $S$"
 

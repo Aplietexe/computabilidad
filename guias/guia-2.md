@@ -88,15 +88,15 @@ x = \langle s_1, s_2, \ldots\rangle = \prod_{i=1}^{\infty} pr(i)^{s_i}
 
 Además para \(i \in \mathbf{N}\), usaremos \((x)_i\) para denotar la \(i\)-ésima coordenada de \((x)\). Es decir que
 
-&#40;1&#41; \((x) = ((x)_1, (x)_2, \ldots)\)
+(1) \((x) = ((x)_1, (x)_2, \ldots)\)
 
-&#40;2&#41; \((x)_i\) es el exponente de \(pr(i)\) en la (única posible) factorización de \(x\) como producto de primos
+(2) \((x)_i\) es el exponente de \(pr(i)\) en la (única posible) factorización de \(x\) como producto de primos
 
 Se le suele llamar la "bajada \(i\)-ésima de \(x\)" al número \((x)_i\). La idea de este nombre es que para obtener \((x)_i\) debemos bajar el exponente de \(pr(i)\) en la factorización de \(x\). Claramente entonces
 
-&#40;3&#41; \(\langle (x)_1, (x)_2, \ldots\rangle = x\), para cada \(x \in \mathbf{N}\)
+(3) \(\langle (x)_1, (x)_2, \ldots\rangle = x\), para cada \(x \in \mathbf{N}\)
 
-&#40;4&#41; Para cada \((s_1, s_2, \ldots) \in \omega^{[\mathbf{N}]}\), se tiene que
+(4) Para cada \((s_1, s_2, \ldots) \in \omega^{[\mathbf{N}]}\), se tiene que
 
 \[
 (\langle s_1, s_2, \ldots\rangle) = (s_1, s_2, \ldots)
@@ -240,9 +240,9 @@ Como puede notarse en estos primeros veinte y pico números solo dos (el 0 y el 
 
 La lista anterior va representando los números de \(\omega\) en forma muy natural pero, aunque nuestra intuición nos diga que no, en principio podría pasar que una misma palabra del alfabeto \(\widetilde{Num}\) ocurra dos veces en la lista y esto nos diría que una misma palabra estaría representando a dos números distintos. También, en principio podría suceder que haya una palabra del alfabeto \(\widetilde{Num}\) la cual nunca figure en la lista. En el apunte está la prueba de que estas dos posibilidades no suceden, es decir se muestra que
 
-&#40;S&#41; Toda palabra de \(\widetilde{Num}^\ast\) aparece en la lista
+(S) Toda palabra de \(\widetilde{Num}^\ast\) aparece en la lista
 
-&#40;I&#41; Ninguna palabra de \(\widetilde{Num}^\ast\) aparece más de una vez
+(I) Ninguna palabra de \(\widetilde{Num}^\ast\) aparece más de una vez
 
 Nótese que la propiedad (S) nos dice que la función
 
@@ -355,9 +355,9 @@ Por supuesto, la lista anterior puede ser escrita de la siguiente manera
 
 Con esta definición formal de la lista se puede probar (ver el apunte) que:
 
-&#40;S&#41; Toda palabra de \(\Sigma^\ast\) aparece en la lista
+(S) Toda palabra de \(\Sigma^\ast\) aparece en la lista
 
-&#40;I&#41; Ninguna palabra de \(\Sigma^\ast\) aparece más de una vez en la lista
+(I) Ninguna palabra de \(\Sigma^\ast\) aparece más de una vez en la lista
 
 Definamos \(\ast^{\le} : \omega \to \Sigma^\ast\) recursivamente de la siguiente manera:
 

@@ -488,7 +488,7 @@ Notar que \(\varepsilon \in L\). Pruebe que \(L\) es \(\Sigma\)-efectivamente en
 
 No se puede usar que el dominio (o la imagen) de una función \(\Sigma\)-efectivamente computable es \(\Sigma\)-efectivamente enumerable. Los procedimientos efectivos pueden ser escritos en forma "efectivizable", por ejemplo puede usar las funciones \(\#^{\le}\), \(\ast^{\le}\), \(\lambda ix[(x)_i]\), \(\lambda xy[x \le y]\), \(\lambda\alpha[|\alpha|]\), \(\lambda xy[x = y]\), \(\lambda\alpha\beta[\alpha = \beta]\), \(\lambda xy[x+y]\), \(\lambda xy[x.y]\), \(\lambda xy[x \mathbin{\dot{-}} y]\), \(\lambda x\alpha[\alpha^x]\), \(\lambda xy[x^y]\), etc sin explicar en su procedimiento cómo haría para calcularlas en forma efectiva.
 
-&#40;1&#41; Sean
+(1) Sean
 
 \[
 \begin{aligned}
@@ -499,13 +499,13 @@ f_3 &: D_{f_3} \subseteq \omega \times \Sigma^\ast \to \Sigma^\ast
 \end{aligned}
 \]
 
-&#40;a&#41; Es verdad que \(D_{f \circ [f_1, f_2, f_3]} = D_{f_1} \cap D_{f_2} \cap D_{f_3}\)?
+(a) Es verdad que \(D_{f \circ [f_1, f_2, f_3]} = D_{f_1} \cap D_{f_2} \cap D_{f_3}\)?
 
-&#40;b&#41; De una descripción del dominio de \(f \circ [f_1, f_2, f_3]\).
+(b) De una descripción del dominio de \(f \circ [f_1, f_2, f_3]\).
 
-&#40;c&#41; Si \(f, f_1, f_2, f_3\) son \(\Sigma\)-efectivamente computables, entonces \(f \circ [f_1, f_2, f_3]\) lo es.
+(c) Si \(f, f_1, f_2, f_3\) son \(\Sigma\)-efectivamente computables, entonces \(f \circ [f_1, f_2, f_3]\) lo es.
 
-&#40;2&#41; Sean
+(2) Sean
 
 \[
 \begin{aligned}
@@ -515,13 +515,13 @@ f_2 &: D_{f_2} \subseteq \omega \to \Sigma^\ast
 \end{aligned}
 \]
 
-&#40;a&#41; Es verdad que \(D_{f \circ [f_1, f_2]} = D_{f_1} \cap D_{f_2}\)?
+(a) Es verdad que \(D_{f \circ [f_1, f_2]} = D_{f_1} \cap D_{f_2}\)?
 
-&#40;b&#41; De una descripción del dominio de \(f \circ [f_1, f_2]\).
+(b) De una descripción del dominio de \(f \circ [f_1, f_2]\).
 
-&#40;c&#41; Si \(f, f_1, f_2\) son \(\Sigma\)-efectivamente computables, entonces \(f \circ [f_1, f_2]\) lo es.
+(c) Si \(f, f_1, f_2\) son \(\Sigma\)-efectivamente computables, entonces \(f \circ [f_1, f_2]\) lo es.
 
-&#40;3&#41; Sean
+(3) Sean
 
 \[
 \begin{aligned}
@@ -532,13 +532,13 @@ f_3 &: D_{f_3} \subseteq \Sigma^\ast \to \Sigma^\ast
 \end{aligned}
 \]
 
-&#40;a&#41; Es verdad que \(D_{f \circ [f_1, f_2, f_3]} = D_{f_1} \cap D_{f_2} \cap D_{f_3}\)?
+(a) Es verdad que \(D_{f \circ [f_1, f_2, f_3]} = D_{f_1} \cap D_{f_2} \cap D_{f_3}\)?
 
-&#40;b&#41; De una descripción del dominio de \(f \circ [f_1, f_2, f_3]\).
+(b) De una descripción del dominio de \(f \circ [f_1, f_2, f_3]\).
 
-&#40;c&#41; Si \(f, f_1, f_2, f_3\) son \(\Sigma\)-efectivamente computables, entonces \(f \circ [f_1, f_2, f_3]\) lo es.
+(c) Si \(f, f_1, f_2, f_3\) son \(\Sigma\)-efectivamente computables, entonces \(f \circ [f_1, f_2, f_3]\) lo es.
 
-&#40;4&#41; Sean
+(4) Sean
 
 \[
 \begin{aligned}
@@ -548,49 +548,49 @@ f_2 &: D_{f_2} \subseteq \omega \times \omega \times \Sigma^\ast \times \Sigma^\
 \end{aligned}
 \]
 
-&#40;a&#41; Es verdad que \(D_{f \circ [f_1, f_2]} = D_{f_1} \cap D_{f_2}\)?
+(a) Es verdad que \(D_{f \circ [f_1, f_2]} = D_{f_1} \cap D_{f_2}\)?
 
-&#40;b&#41; De una descripción del dominio de \(f \circ [f_1, f_2]\).
+(b) De una descripción del dominio de \(f \circ [f_1, f_2]\).
 
-&#40;c&#41; Si \(f, f_1, f_2\) son \(\Sigma\)-efectivamente computables, entonces \(f \circ [f_1, f_2]\) lo es.
+(c) Si \(f, f_1, f_2\) son \(\Sigma\)-efectivamente computables, entonces \(f \circ [f_1, f_2]\) lo es.
 
-&#40;5&#41; Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(f : L_1 \to L_2\), con \(L_1, L_2 \subseteq \Sigma^\ast\), es \(\Sigma\)-efectivamente computable y biyectiva.
+(5) Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(f : L_1 \to L_2\), con \(L_1, L_2 \subseteq \Sigma^\ast\), es \(\Sigma\)-efectivamente computable y biyectiva.
 
-&#40;a&#41; Defina (dando dominio, imagen y regla) la función \(f^{-1}\).
+(a) Defina (dando dominio, imagen y regla) la función \(f^{-1}\).
 
-&#40;b&#41; Pruebe que \(f^{-1}\) es \(\Sigma\)-efectivamente computable.
+(b) Pruebe que \(f^{-1}\) es \(\Sigma\)-efectivamente computable.
 
-&#40;6&#41; Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(S_1 \subseteq \omega \times \Sigma^\ast\) y \(S_2 \subseteq \omega\). Supongamos además que \(f : S_1 \to S_2\) es \(\Sigma\)-efectivamente computable y biyectiva.
+(6) Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(S_1 \subseteq \omega \times \Sigma^\ast\) y \(S_2 \subseteq \omega\). Supongamos además que \(f : S_1 \to S_2\) es \(\Sigma\)-efectivamente computable y biyectiva.
 
-&#40;a&#41; Defina (dando dominio, imagen y regla) la función \(f^{-1}\).
+(a) Defina (dando dominio, imagen y regla) la función \(f^{-1}\).
 
-&#40;b&#41; Sean \(g_1 : S_2 \to \omega\) y \(g_2 : S_2 \to \Sigma^\ast\) funciones tales que \(f^{-1} = [g_1, g_2]\). Pruebe que \(g_1\) y \(g_2\) son \(\Sigma\)-efectivamente computables.
+(b) Sean \(g_1 : S_2 \to \omega\) y \(g_2 : S_2 \to \Sigma^\ast\) funciones tales que \(f^{-1} = [g_1, g_2]\). Pruebe que \(g_1\) y \(g_2\) son \(\Sigma\)-efectivamente computables.
 
-&#40;7&#41; Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(S \subseteq \omega \times \Sigma^\ast\) y \(L \subseteq \Sigma^\ast\). Supongamos además que \(f : S \to L\) es \(\Sigma\)-efectivamente computable y biyectiva.
+(7) Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(S \subseteq \omega \times \Sigma^\ast\) y \(L \subseteq \Sigma^\ast\). Supongamos además que \(f : S \to L\) es \(\Sigma\)-efectivamente computable y biyectiva.
 
-&#40;a&#41; Defina (dando dominio, imagen y regla) la función \(f^{-1}\).
+(a) Defina (dando dominio, imagen y regla) la función \(f^{-1}\).
 
-&#40;b&#41; Sean \(g_1 : L \to \omega\) y \(g_2 : L \to \Sigma^\ast\) funciones tales que \(f^{-1} = [g_1, g_2]\). Pruebe que \(g_1\) y \(g_2\) son \(\Sigma\)-efectivamente computables.
+(b) Sean \(g_1 : L \to \omega\) y \(g_2 : L \to \Sigma^\ast\) funciones tales que \(f^{-1} = [g_1, g_2]\). Pruebe que \(g_1\) y \(g_2\) son \(\Sigma\)-efectivamente computables.
 
-&#40;8&#41; Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(S_1 \subseteq \omega\) y \(S_2 \subseteq \omega \times \Sigma^\ast\). Supongamos además que \(F : S_1 \to S_2\) es biyectiva.
+(8) Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(S_1 \subseteq \omega\) y \(S_2 \subseteq \omega \times \Sigma^\ast\). Supongamos además que \(F : S_1 \to S_2\) es biyectiva.
 
-&#40;a&#41; Defina (dando dominio, imagen y regla) la función \(F^{-1}\).
+(a) Defina (dando dominio, imagen y regla) la función \(F^{-1}\).
 
-&#40;b&#41; Pruebe que si \(F_{(1)}\) y \(F_{(2)}\) son \(\Sigma\)-efectivamente computables, entonces \(F^{-1}\) es \(\Sigma\)-efectivamente computable.
+(b) Pruebe que si \(F_{(1)}\) y \(F_{(2)}\) son \(\Sigma\)-efectivamente computables, entonces \(F^{-1}\) es \(\Sigma\)-efectivamente computable.
 
-&#40;9&#41; Un conjunto no vacío \(S \subseteq \omega^n \times \Sigma^{\ast m}\) es \(\Sigma\)-efectivamente enumerable sii hay un procedimiento efectivo \(\mathbb{P}\) tal que
+(9) Un conjunto no vacío \(S \subseteq \omega^n \times \Sigma^{\ast m}\) es \(\Sigma\)-efectivamente enumerable sii hay un procedimiento efectivo \(\mathbb{P}\) tal que
 
-&#40;a&#41; El conjunto de datos de entrada de \(\mathbb{P}\) es \(\omega\)
+(a) El conjunto de datos de entrada de \(\mathbb{P}\) es \(\omega\)
 
-&#40;b&#41; \(\mathbb{P}\) se detiene para cada \(x \in \omega\)
+(b) \(\mathbb{P}\) se detiene para cada \(x \in \omega\)
 
-&#40;b&#41; El conjunto de datos de salida de \(\mathbb{P}\) es igual a \(S\). (Es decir, siempre que \(\mathbb{P}\) se detiene, da como salida un elemento de \(S\), y para cada elemento \((\overrightarrow{x}, \overrightarrow{\alpha}) \in S\), hay un \(x \in \omega\) tal que \(\mathbb{P}\) da como salida a \((\overrightarrow{x}, \overrightarrow{\alpha})\) cuando lo corremos con \(x\) como dato de entrada)
+(b) El conjunto de datos de salida de \(\mathbb{P}\) es igual a \(S\). (Es decir, siempre que \(\mathbb{P}\) se detiene, da como salida un elemento de \(S\), y para cada elemento \((\overrightarrow{x}, \overrightarrow{\alpha}) \in S\), hay un \(x \in \omega\) tal que \(\mathbb{P}\) da como salida a \((\overrightarrow{x}, \overrightarrow{\alpha})\) cuando lo corremos con \(x\) como dato de entrada)
 
 (Hacer el caso \(n = 1, m = 2\)).
 
-&#40;10&#41; Sean \(S_1, S_2 \subseteq \omega^n \times \Sigma^{\ast m}\) conjuntos \(\Sigma\)-efectivamente enumerables. Entonces \(S_1 \cap S_2\) es \(\Sigma\)-efectivamente enumerable.
+(10) Sean \(S_1, S_2 \subseteq \omega^n \times \Sigma^{\ast m}\) conjuntos \(\Sigma\)-efectivamente enumerables. Entonces \(S_1 \cap S_2\) es \(\Sigma\)-efectivamente enumerable.
 
-&#40;11&#41; Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(f : S \subseteq \omega \times \omega \times \Sigma^\ast \to \omega\) es \(\Sigma\)-efectivamente computable. Suponga además que \((0, 0, \varepsilon) \in S\) y \(f(0, 0, \varepsilon) = 0\). Pruebe que el conjunto
+(11) Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(f : S \subseteq \omega \times \omega \times \Sigma^\ast \to \omega\) es \(\Sigma\)-efectivamente computable. Suponga además que \((0, 0, \varepsilon) \in S\) y \(f(0, 0, \varepsilon) = 0\). Pruebe que el conjunto
 
 \[
 \{(x, y, \alpha) \in S : f(x, y, \alpha) = 0\}
@@ -598,7 +598,7 @@ f_2 &: D_{f_2} \subseteq \omega \times \omega \times \Sigma^\ast \times \Sigma^\
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;12&#41; Sea \(\Sigma = \{@, \&\}\). Supongamos \(f : S \subseteq \omega \times \omega \to \omega\) es \(\Sigma\)-efectivamente computable. Suponga además que \((0, 0) \in S\) y \(f(0, 0) = 0\). Pruebe que el conjunto
+(12) Sea \(\Sigma = \{@, \&\}\). Supongamos \(f : S \subseteq \omega \times \omega \to \omega\) es \(\Sigma\)-efectivamente computable. Suponga además que \((0, 0) \in S\) y \(f(0, 0) = 0\). Pruebe que el conjunto
 
 \[
 \{(x, y) \in S : f(x, y) = x\}
@@ -606,7 +606,7 @@ es \(\Sigma\)-efectivamente enumerable.
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;13&#41; Sea \(\Sigma = \{@, \&\}\). Supongamos \(f : L \subseteq \Sigma^\ast \times \Sigma^\ast \to \Sigma^\ast\) es \(\Sigma\)-efectivamente computable. Suponga además que \((@, \&) \in L\) y \(f(@, \&) = @@@\). Pruebe que el conjunto
+(13) Sea \(\Sigma = \{@, \&\}\). Supongamos \(f : L \subseteq \Sigma^\ast \times \Sigma^\ast \to \Sigma^\ast\) es \(\Sigma\)-efectivamente computable. Suponga además que \((@, \&) \in L\) y \(f(@, \&) = @@@\). Pruebe que el conjunto
 
 \[
 \{(\alpha, \beta) \in L : f(\alpha, \beta) = \alpha\alpha\alpha\}
@@ -614,7 +614,7 @@ es \(\Sigma\)-efectivamente enumerable.
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;14&#41; Sea \(\Sigma = \{@, \&\}\). Supongamos \(f : S \subseteq \omega \times \omega \to \omega\) es \(\Sigma\)-efectivamente computable. Suponga además que \((0, 0) \in S\) y \(f(0, 0) = 0\). Pruebe que el conjunto
+(14) Sea \(\Sigma = \{@, \&\}\). Supongamos \(f : S \subseteq \omega \times \omega \to \omega\) es \(\Sigma\)-efectivamente computable. Suponga además que \((0, 0) \in S\) y \(f(0, 0) = 0\). Pruebe que el conjunto
 
 \[
 \{(x, y) \in S : (y, x) \in S \text{ y } f(x, y) = f(y, x)\}
@@ -622,7 +622,7 @@ es \(\Sigma\)-efectivamente enumerable.
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;15&#41; Sea \(\Sigma = \{@, \&\}\). Supongamos \(f : S \subseteq \omega \times \omega \to \omega\) es \(\Sigma\)-efectivamente computable. Suponga además que \((0, 0) \in S\) y \(f(0, 0) = 0\). Pruebe que el conjunto
+(15) Sea \(\Sigma = \{@, \&\}\). Supongamos \(f : S \subseteq \omega \times \omega \to \omega\) es \(\Sigma\)-efectivamente computable. Suponga además que \((0, 0) \in S\) y \(f(0, 0) = 0\). Pruebe que el conjunto
 
 \[
 \{(x, y) \in S : (f(x, y), y) \in S \text{ y } f(f(x, y), y) = 0\}
@@ -630,7 +630,7 @@ es \(\Sigma\)-efectivamente enumerable.
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;16&#41; Sea \(\Sigma = \{@, \&\}\). Supongamos \(f : S \subseteq \omega \times \omega \to \omega\) es \(\Sigma\)-efectivamente computable. Suponga además que \((0, 0) \in S\) y \(f(0, 0) = 0\). Pruebe que el conjunto
+(16) Sea \(\Sigma = \{@, \&\}\). Supongamos \(f : S \subseteq \omega \times \omega \to \omega\) es \(\Sigma\)-efectivamente computable. Suponga además que \((0, 0) \in S\) y \(f(0, 0) = 0\). Pruebe que el conjunto
 
 \[
 \{x \in \omega : \text{hay un } y\text{tal que } (x, y) \in S \text{ y } f(x, y) = 0\}
@@ -638,7 +638,7 @@ es \(\Sigma\)-efectivamente enumerable.
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;17&#41; Sea \(\Sigma = \{@, \&\}\). Supongamos \(f : S \subseteq \omega \times \omega \to \omega\) es \(\Sigma\)-efectivamente computable. Suponga además que \((0, 0) \in S\) y \(f(0, 0) = 0\). Pruebe que el conjunto
+(17) Sea \(\Sigma = \{@, \&\}\). Supongamos \(f : S \subseteq \omega \times \omega \to \omega\) es \(\Sigma\)-efectivamente computable. Suponga además que \((0, 0) \in S\) y \(f(0, 0) = 0\). Pruebe que el conjunto
 
 \[
 \{(x, x) : (x, x) \in S \text{ y } f(x, x) = x\}
@@ -646,7 +646,7 @@ es \(\Sigma\)-efectivamente enumerable.
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;18&#41; Sea \(\Sigma = \{@, \&\}\). Supongamos \(f : L \subseteq \Sigma^\ast \times \Sigma^\ast \to \Sigma^\ast\) es \(\Sigma\)-efectivamente computable. Suponga además que \((@, @) \in L\). Pruebe que el conjunto
+(18) Sea \(\Sigma = \{@, \&\}\). Supongamos \(f : L \subseteq \Sigma^\ast \times \Sigma^\ast \to \Sigma^\ast\) es \(\Sigma\)-efectivamente computable. Suponga además que \((@, @) \in L\). Pruebe que el conjunto
 
 \[
 \{(\alpha, \beta) \in L : (\beta, \alpha) \in L \text{ y } f(\alpha, \beta) = f(\beta, \alpha)\}
@@ -654,7 +654,7 @@ es \(\Sigma\)-efectivamente enumerable.
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;19&#41; Sea \(\Sigma = \{@, \&\}\). Sea \(f : S \subseteq \Sigma^\ast \to \omega\) una función \(\Sigma\)-efectivamente computable. Supongamos que \(\varepsilon \in S\) y que \(f(\varepsilon) = 0\). Sea
+(19) Sea \(\Sigma = \{@, \&\}\). Sea \(f : S \subseteq \Sigma^\ast \to \omega\) una función \(\Sigma\)-efectivamente computable. Supongamos que \(\varepsilon \in S\) y que \(f(\varepsilon) = 0\). Sea
 
 \[
 L = \{\alpha \in S : @^{f(\alpha)} \in S \text{ y } f(@^{f(\alpha)}) = 0\}
@@ -662,7 +662,7 @@ L = \{\alpha \in S : @^{f(\alpha)} \in S \text{ y } f(@^{f(\alpha)}) = 0\}
 
 Notar que \(\varepsilon \in L\). Pruebe que \(L\) es \(\Sigma\)-efectivamente enumerable
 
-&#40;20&#41; Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(f : S \subseteq \omega \times \omega \times \Sigma^\ast \to \omega\) es \(\Sigma\)-efectivamente computable. Suponga además que \((0, 0, \varepsilon) \in S\) y \(f(0, 0, \varepsilon) = 0\). Pruebe que el conjunto
+(20) Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(f : S \subseteq \omega \times \omega \times \Sigma^\ast \to \omega\) es \(\Sigma\)-efectivamente computable. Suponga además que \((0, 0, \varepsilon) \in S\) y \(f(0, 0, \varepsilon) = 0\). Pruebe que el conjunto
 
 \[
 \{(x, y, \alpha) \in S : (y, x, \alpha) \in S \text{ y } f(x, y, \alpha) = f(y, x, \alpha)\}
@@ -670,7 +670,7 @@ Notar que \(\varepsilon \in L\). Pruebe que \(L\) es \(\Sigma\)-efectivamente en
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;21&#41; Si \(\mathbb{P}_1\) y \(\mathbb{P}_2\) son procedimientos efectivos ambos con conjunto de datos de entrada igual a \(\omega \times \Sigma^\ast\), entonces el conjunto
+(21) Si \(\mathbb{P}_1\) y \(\mathbb{P}_2\) son procedimientos efectivos ambos con conjunto de datos de entrada igual a \(\omega \times \Sigma^\ast\), entonces el conjunto
 
 \[
 \{(\alpha, \beta) \in \Sigma^\ast \times \Sigma^\ast : \mathbb{P}_1 \text{ termina partiendo de } (0, \alpha) \text{ y } \mathbb{P}_2 \text{ termina partiendo de } (0, \beta)\}
@@ -678,15 +678,15 @@ es \(\Sigma\)-efectivamente enumerable.
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;22&#41; Sea \(\Sigma = \{@, !, \%\}\). Si \(f : S \subseteq \omega \times \omega \times \Sigma^\ast \to \omega\) es \(\Sigma\)-efectivamente computable, entonces \(S\) es \(\Sigma\)-efectivamente enumerable
+(22) Sea \(\Sigma = \{@, !, \%\}\). Si \(f : S \subseteq \omega \times \omega \times \Sigma^\ast \to \omega\) es \(\Sigma\)-efectivamente computable, entonces \(S\) es \(\Sigma\)-efectivamente enumerable
 
-&#40;23&#41; Sea \(\Sigma = \{@, !, \%\}\). Si \(f : S \subseteq \omega \times \omega \times \Sigma^\ast \to \omega\) es \(\Sigma\)-efectivamente computable, entonces \(\operatorname{Im}(f)\) es \(\Sigma\)-efectivamente enumerable
+(23) Sea \(\Sigma = \{@, !, \%\}\). Si \(f : S \subseteq \omega \times \omega \times \Sigma^\ast \to \omega\) es \(\Sigma\)-efectivamente computable, entonces \(\operatorname{Im}(f)\) es \(\Sigma\)-efectivamente enumerable
 
-&#40;24&#41; Sea \(\Sigma = \{@, !, \%\}\). Si \(f : L \subseteq \Sigma^\ast \times \Sigma^\ast \to \omega\) es \(\Sigma\)-efectivamente computable, entonces \(\operatorname{Im}(f)\) es \(\Sigma\)-efectivamente enumerable
+(24) Sea \(\Sigma = \{@, !, \%\}\). Si \(f : L \subseteq \Sigma^\ast \times \Sigma^\ast \to \omega\) es \(\Sigma\)-efectivamente computable, entonces \(\operatorname{Im}(f)\) es \(\Sigma\)-efectivamente enumerable
 
-&#40;25&#41; Sea \(\Sigma = \{@, !, \%\}\). Si \(f_1 : S_1 \subseteq \omega \times \omega \times \Sigma^\ast \to \omega\) y \(f_2 : S_2 \subseteq \omega \times \omega \times \Sigma^\ast \to \Sigma^\ast\) son \(\Sigma\)-efectivamente computables, entonces \(\operatorname{Im}([f_1, f_2])\) es \(\Sigma\)-efectivamente enumerable
+(25) Sea \(\Sigma = \{@, !, \%\}\). Si \(f_1 : S_1 \subseteq \omega \times \omega \times \Sigma^\ast \to \omega\) y \(f_2 : S_2 \subseteq \omega \times \omega \times \Sigma^\ast \to \Sigma^\ast\) son \(\Sigma\)-efectivamente computables, entonces \(\operatorname{Im}([f_1, f_2])\) es \(\Sigma\)-efectivamente enumerable
 
-&#40;26&#41; Sea \(\Sigma = \{@, !, \%\}\). Si \(f : S \subseteq \omega \to \omega\) y \(g : L \subseteq \Sigma^\ast \to \omega\) son \(\Sigma\)-efectivamente computables, entonces
+(26) Sea \(\Sigma = \{@, !, \%\}\). Si \(f : S \subseteq \omega \to \omega\) y \(g : L \subseteq \Sigma^\ast \to \omega\) son \(\Sigma\)-efectivamente computables, entonces
 
 \[
 \{x : x \in S,\ @^x \in L \text{ y } f(x) = g(@^x)\}
@@ -694,7 +694,7 @@ es \(\Sigma\)-efectivamente enumerable.
 
 es \(\Sigma\)-efectivamente enumerable
 
-&#40;27&#41; Sea \(\Sigma = \{@, !, \%\}\). Si \(f : S \subseteq \omega \to \omega\) y \(g : L \subseteq \Sigma^\ast \to \omega\) son \(\Sigma\)-efectivamente computables, entonces
+(27) Sea \(\Sigma = \{@, !, \%\}\). Si \(f : S \subseteq \omega \to \omega\) y \(g : L \subseteq \Sigma^\ast \to \omega\) son \(\Sigma\)-efectivamente computables, entonces
 
 \[
 \{\alpha \in L : g(\alpha) \in S \text{ y } f(g(\alpha)) = 0\}
@@ -702,11 +702,11 @@ es \(\Sigma\)-efectivamente enumerable
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;28&#41; Sea \(\Sigma = \{@, !, \%\}\). Si \(f : \omega \to \Sigma^\ast\) es \(\Sigma\)-efectivamente computable y biyectiva, entonces \(f^{-1}\) es \(\Sigma\)-efectivamente computable
+(28) Sea \(\Sigma = \{@, !, \%\}\). Si \(f : \omega \to \Sigma^\ast\) es \(\Sigma\)-efectivamente computable y biyectiva, entonces \(f^{-1}\) es \(\Sigma\)-efectivamente computable
 
-&#40;29&#41; Sea \(\Sigma = \{@, !, \%\}\). Si \(f : L \subseteq \Sigma^\ast \to \omega\) y \(g : S \subseteq \omega \to \Sigma^\ast\) son \(\Sigma\)-efectivamente computables, entonces \(f \circ g\) es \(\Sigma\)-efectivamente computable
+(29) Sea \(\Sigma = \{@, !, \%\}\). Si \(f : L \subseteq \Sigma^\ast \to \omega\) y \(g : S \subseteq \omega \to \Sigma^\ast\) son \(\Sigma\)-efectivamente computables, entonces \(f \circ g\) es \(\Sigma\)-efectivamente computable
 
-&#40;30&#41; Si \(f : S \subseteq \omega \to \omega\) es \(\Sigma\)-efectivamente computable, entonces el conjunto
+(30) Si \(f : S \subseteq \omega \to \omega\) es \(\Sigma\)-efectivamente computable, entonces el conjunto
 
 \[
 \{x \in S : x^2 \in S \text{ y } f(x) = f(x^2)\}
@@ -714,7 +714,7 @@ es \(\Sigma\)-efectivamente enumerable.
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;31&#41; Si \(f : S \subseteq \omega \to \omega\) es \(\Sigma\)-efectivamente computable, entonces el conjunto
+(31) Si \(f : S \subseteq \omega \to \omega\) es \(\Sigma\)-efectivamente computable, entonces el conjunto
 
 \[
 \{x \in S : x \text{ es par } x/2 \in S \text{ y } f(x) = f(x/2)\}
@@ -722,7 +722,7 @@ es \(\Sigma\)-efectivamente enumerable.
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;32&#41; Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(L_1, L_2 \subseteq \Sigma^\ast\) son \(\Sigma\)-efectivamente enumerables. Entonces
+(32) Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(L_1, L_2 \subseteq \Sigma^\ast\) son \(\Sigma\)-efectivamente enumerables. Entonces
 
 \[
 \{\alpha \in L_1 : \text{hay un } \beta \in L_2 \text{ tal que } |\beta| = |\alpha|\}
@@ -730,7 +730,7 @@ es \(\Sigma\)-efectivamente enumerable.
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;33&#41; Sea \(\Sigma = \{!, \%\}\). Supongamos \(S \subseteq \omega \times \omega \times \Sigma^\ast\) y \(L \subseteq \Sigma^\ast\) son \(\Sigma\)-efectivamente enumerables. Entonces
+(33) Sea \(\Sigma = \{!, \%\}\). Supongamos \(S \subseteq \omega \times \omega \times \Sigma^\ast\) y \(L \subseteq \Sigma^\ast\) son \(\Sigma\)-efectivamente enumerables. Entonces
 
 \[
 \{(x, y, \alpha) \in S : \text{hay un } \beta \in L \text{ tal que } |\beta| = |\alpha|\}
@@ -738,7 +738,7 @@ es \(\Sigma\)-efectivamente enumerable.
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;34&#41; Sea \(\Sigma = \{!, \%\}\). Supongamos \(S \subseteq \omega \times \omega\) y \(S' \subseteq \omega\) son \(\Sigma\)-efectivamente enumerables. Entonces
+(34) Sea \(\Sigma = \{!, \%\}\). Supongamos \(S \subseteq \omega \times \omega\) y \(S' \subseteq \omega\) son \(\Sigma\)-efectivamente enumerables. Entonces
 
 \[
 \{(x, y) : (x, y) \in S \text{ y } x + y \in S'\}
@@ -746,7 +746,7 @@ es \(\Sigma\)-efectivamente enumerable.
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;35&#41; Sea \(\Sigma = \{!, \%\}\). Supongamos \(S \subseteq \Sigma^\ast \times \Sigma^\ast\) y \(L \subseteq \Sigma^\ast\) son \(\Sigma\)-efectivamente enumerables. Entonces
+(35) Sea \(\Sigma = \{!, \%\}\). Supongamos \(S \subseteq \Sigma^\ast \times \Sigma^\ast\) y \(L \subseteq \Sigma^\ast\) son \(\Sigma\)-efectivamente enumerables. Entonces
 
 \[
 \{(\alpha, \beta) \in S : \text{hay un } \gamma \in L \text{ tal que } \alpha = \beta\gamma\}
@@ -754,7 +754,7 @@ es \(\Sigma\)-efectivamente enumerable.
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;36&#41; Sean \(f : D_f \subseteq \omega \times \Sigma^\ast \to \omega\) y \(g : D_g \subseteq \omega \times \Sigma^\ast \to \omega\) funciones \(\Sigma\)-efectivamente computables tales que \(D_f \cap D_g = \emptyset\). Sea \(F : D_f \cup D_g \to \omega\) dada por
+(36) Sean \(f : D_f \subseteq \omega \times \Sigma^\ast \to \omega\) y \(g : D_g \subseteq \omega \times \Sigma^\ast \to \omega\) funciones \(\Sigma\)-efectivamente computables tales que \(D_f \cap D_g = \emptyset\). Sea \(F : D_f \cup D_g \to \omega\) dada por
 
 \[
 e \mapsto
@@ -766,7 +766,7 @@ g(e) & \text{si } e \in D_g
 
 Pruebe que \(F\) es \(\Sigma\)-efectivamente computable.
 
-&#40;37&#41; Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(L_1, L_2 \subseteq \Sigma^\ast\) son \(\Sigma\)-efectivamente enumerables. Entonces
+(37) Sea \(\Sigma = \{@, !, \%\}\). Supongamos \(L_1, L_2 \subseteq \Sigma^\ast\) son \(\Sigma\)-efectivamente enumerables. Entonces
 
 \[
 \{\alpha \in L_1 : \text{hay un } \beta \in L_2 \text{ tal que } \beta^3 = \alpha\}
@@ -774,4 +774,4 @@ Pruebe que \(F\) es \(\Sigma\)-efectivamente computable.
 
 es \(\Sigma\)-efectivamente enumerable.
 
-&#40;38&#41; Sean \(S \subseteq \omega\) y \(L \subseteq \{@, \text{↑}\}^\ast\) tales que \((0, \varepsilon) \in S \times L\). Entonces \(S \times L\) es \(\{@, \text{↑}\}\)-efectivamente enumerable si y solo si ambos \(S\) y \(L\) son \(\{@, \text{↑}\}\)-efectivamente enumerables
+(38) Sean \(S \subseteq \omega\) y \(L \subseteq \{@, \text{↑}\}^\ast\) tales que \((0, \varepsilon) \in S \times L\). Entonces \(S \times L\) es \(\{@, \text{↑}\}\)-efectivamente enumerable si y solo si ambos \(S\) y \(L\) son \(\{@, \text{↑}\}\)-efectivamente enumerables

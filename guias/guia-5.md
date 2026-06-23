@@ -1447,7 +1447,7 @@ f(x,\overrightarrow{x},\overrightarrow{\alpha}).f(x+1,\overrightarrow{x},\overri
 En forma similar, cuando \(I_f\subseteq\Sigma^\ast\), definamos
 
 \[
-\operatorname*{C}_{t=x}^{t=y} f(t,\overrightarrow{x},\overrightarrow{\alpha})=
+\mathop{\subset}\limits_{t=x}^{t=y} f(t,\overrightarrow{x},\overrightarrow{\alpha})=
 \begin{cases}
 \varepsilon&\text{si }x>y\\
 f(x,\overrightarrow{x},\overrightarrow{\alpha})f(x+1,\overrightarrow{x},\overrightarrow{\alpha})\cdots f(y,\overrightarrow{x},\overrightarrow{\alpha})&\text{si }x\le y
@@ -1461,7 +1461,7 @@ Note que, en virtud de la definición anterior, el dominio de las funciones
 \quad
 \lambda xy\overrightarrow{x}\overrightarrow{\alpha}\left[\prod_{t=x}^{t=y} f(t,\overrightarrow{x},\overrightarrow{\alpha})\right],
 \quad
-\lambda xy\overrightarrow{x}\overrightarrow{\alpha}\left[\operatorname*{C}_{t=x}^{t=y} f(t,\overrightarrow{x},\overrightarrow{\alpha})\right]
+\lambda xy\overrightarrow{x}\overrightarrow{\alpha}\left[\mathop{\subset}\limits_{t=x}^{t=y} f(t,\overrightarrow{x},\overrightarrow{\alpha})\right]
 \]
 
 es \(\omega\times\omega\times S_1\times\cdots\times S_n\times L_1\times\cdots\times L_m\).
@@ -1483,7 +1483,7 @@ son \(\Sigma\)-p.r.
 **(b)** Si \(f:\omega\times S_1\times\cdots\times S_n\times L_1\times\cdots\times L_m\to\Sigma^\ast\) es \(\Sigma\)-p.r., con \(S_1,\ldots,S_n\subseteq\omega\) y \(L_1,\ldots,L_m\subseteq\Sigma^\ast\) no vacíos, entonces la función
 
 \[
-\lambda xy\overrightarrow{x}\overrightarrow{\alpha}\left[\operatorname*{C}_{t=x}^{t=y} f(t,\overrightarrow{x},\overrightarrow{\alpha})\right]
+\lambda xy\overrightarrow{x}\overrightarrow{\alpha}\left[\mathop{\subset}\limits_{t=x}^{t=y} f(t,\overrightarrow{x},\overrightarrow{\alpha})\right]
 \]
 
 es \(\Sigma\)-p.r.
@@ -1634,17 +1634,17 @@ Haga los siguientes ejercicios aplicando el lema anterior. No caiga en la tentac
 
 **(b)** \(\lambda xy\alpha\left[\prod_{t=y+1}^{t=|\alpha|}(t+|\alpha|)\right]\)
 
-**(c)** \(\lambda xyz\alpha\beta\left[\operatorname*{C}_{t=3}^{t=z+5}\alpha^t\right]\)
+**(c)** \(\lambda xyz\alpha\beta\left[\mathop{\subset}\limits_{t=3}^{t=z+5}\alpha^t\right]\)
 
 **(d)** \(\lambda xyx_1\beta\left[\sum_{t=0}^{t=y}|\beta|.(x_1+t)\right]\)
 
-**(e)** \(\lambda x_2xyz\alpha\beta\left[\operatorname*{C}_{t=x_2}^{t=z+5}\alpha^{y.x.t}\beta^z\right]\)
+**(e)** \(\lambda x_2xyz\alpha\beta\left[\mathop{\subset}\limits_{t=x_2}^{t=z+5}\alpha^{y.x.t}\beta^z\right]\)
 
 **Ejercicio 38:** Describa el dominio de \(G\) y pruebe que \(G\) es \(\Sigma\)-p.r.
 
 **(a)** \(G=\lambda xx_1\left[\sum_{t=1}^{t=x}Pred(x_1)^t\right]\)
 
-**(b)** \(G=\lambda xyz\alpha\beta\left[\operatorname*{C}_{t=3}^{t=z+5}\alpha^{Pred(z).t^x}\beta^{Pred(Pred(|\alpha|^y))}\right]\)
+**(b)** \(G=\lambda xyz\alpha\beta\left[\mathop{\subset}\limits_{t=3}^{t=z+5}\alpha^{Pred(z).t^x}\beta^{Pred(Pred(|\alpha|^y))}\right]\)
 
 (Ojo que la la \(f\) a la cual le debe aplicar el lema de la sumatoria no es \(\Sigma\)-total)
 
@@ -2044,7 +2044,7 @@ G=\lambda zx_1\alpha\left[\prod_{t=1}^{t=|\alpha|}g(Pred((t+1).x_1.|\alpha|))\ri
 **(12)** Sea \(g:\omega\to\Sigma^\ast\) una función \(\Sigma\)-p.r.. Sea
 
 \[
-G=\lambda zx_1x_2\alpha\left[\operatorname*{C}_{t=x_2}^{t=z+5}g(t.Pred(x_1.|\alpha|))\right]
+G=\lambda zx_1x_2\alpha\left[\mathop{\subset}\limits_{t=x_2}^{t=z+5}g(t.Pred(x_1.|\alpha|))\right]
 \]
 
 **(a)** Describa el dominio de \(G\) (según manda la notación lambda)

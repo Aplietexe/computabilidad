@@ -1,17 +1,21 @@
 ALPHABET_WORDS - Alphabet, Sigma^*, epsilon, word length, concatenation, powers of words, subword/initial segment/final segment, and related word notation.
 FUNC_DEF - Function as a set of ordered pairs with uniqueness, domain D_f, image I_f, and the three notational conventions for f(x), f:S subset A -> B, and definition by domain/rule.
 FUNC_IDENTITY - Id_A, the identity function on a set A.
+FUNC_EXT_EQUALITY - Guide 1 Lemma 1: two functions are equal iff they have the same domain and agree at every point of that domain.
 CHAR_FUNC - Characteristic function chi_S^X of a subset S of X.
 FUNC_RESTRICTION - Restriction f|_S of a function to S subset D_f.
+INDUCTION_PRINCIPLES - The induction principle and its proof rules, including induction from 0/from n_0 and complete induction.
 MIXED_DOMAIN - The convention omega^n x Sigma^{*m}, including the diamond case and vector notation.
 SIGMA_MIXED_FN - Sigma-mixed function.
 MIXED_FN_ALPHABET_EXTENSION - Guide 1 Lemma 2: if Sigma is contained in Gamma, every Sigma-mixed function is Gamma-mixed.
+SIGMA_TOTAL_FN - Sigma-total mixed function: a Sigma-mixed function whose domain is all omega^n x Sigma^{*m} for some n,m.
 BASIC_SIGMA_FUNCTIONS - The initial mixed functions Suc, Pred, d_a, projections p_i^{n,m}, and constants C_k^{n,m}, C_alpha^{n,m}.
 MIXED_FN_TYPE - A Sigma-mixed function being of type (n,m,#) or (n,m,*).
 PREDICATE_DEF - Predicate as a mixed function with image contained in {0,1}.
 PRED_LOGIC - Boolean operations on predicates: P or Q, P and Q, and not P.
 FUNC_COMPOSITION - Composition f o g of two functions.
 FUNC_TUPLE_BRACKET - The function [f_1,...,f_n] with common domain intersection and tuple output.
+FUNC_BIJECTION_INVERSE - Injective, surjective, and bijective functions, and the inverse f^{-1} of a bijection.
 FUNC_INVERSE_CRITERION - Guide 1 Lemma 3: mutual composition with identities gives inverse bijections.
 SIGMA_MIXED_SET - Sigma-mixed set.
 MIXED_SET_TYPE - A Sigma-mixed set being of type (n,m).
@@ -57,7 +61,7 @@ PR_CONSTANTS - Guide 5 Lemma 11: arbitrary numeric and word constant functions a
 PR_CONCAT_LENGTH - Primitive recursiveness of word concatenation and word length.
 PR_WORD_POWER - Guide 5 Lemma 12(b): the word-power function lambda x alpha[alpha^x] is Sigma-p.r.
 PR_WORD_ORDER_CODING - Guide 5 Exercise 24: s^le, #^le, and *^le are Sigma-primitive recursive.
-PR_BASIC_ARITH - Standard primitive-recursive arithmetic/comparison functions such as addition, multiplication, exponentiation, truncated subtraction, max, equality, and <=.
+PR_BASIC_ARITH - Standard primitive-recursive numeric functions/comparisons, including the empty function, addition, multiplication, factorial, exponentiation, truncated subtraction, max, equality, and <=.
 DEC_NUMERAL - Decimal-word coding: Num, Sig, Dec(n), and the notation overline n.
 EFFECTIVE_PROCEDURE - Informal effective procedure with input space omega^n x Sigma^{*m}, possible halting, and output.
 EFF_COMP_FN - Sigma-effectively computable function, and a procedure P computing such a function.
@@ -82,9 +86,12 @@ PR_RECTANGULAR_PRODUCT - Guide 5 Lemma 17: a nonempty rectangular product is Sig
 PR_RESTRICTION - Guide 5 Lemma 18: restricting a Sigma-p.r. function to a Sigma-p.r. subset of its domain is Sigma-p.r.
 PR_TOTAL_EXTENSION - Guide 5 Lemma 19: every Sigma-p.r. partial function has a Sigma-p.r. total extension on its ambient mixed product.
 PR_SET_DOMAIN_CHAR - Guide 5 Proposition 20: S is Sigma-p.r. iff S is the domain of a Sigma-p.r. function.
+FUNC_DISJOINT_UNION - Disjoint-domain union f_1 union ... union f_k as a function defined casewise on the union of the domains.
 PR_CASE_SPLIT - Guide 5 Lemma 21: piecewise union of disjoint-domain Sigma-p.r. functions is Sigma-p.r.
 PR_WORD_SYMBOL_AT - Guide 5 Lemma 22: the function (i, alpha) |-> [alpha]_i is Sigma-primitive recursive.
+SUM_PROD_CONCAT_NOTATION - Bounded sum, product, and concatenation notation for functions over a numerical interval, including empty-interval values and domains.
 PR_SUMMATION - Guide 5 Lemma 23: bounded sums, products, and concatenations of Sigma-p.r. functions are Sigma-p.r.
+BOUNDED_QUANT_NOTATION - Bounded universal/existential quantification notation over numerical and word variables, including its domain conventions and empty-bound cases.
 PR_BOUNDED_QUANT - Guide 5 Lemma 24: bounded universal/existential quantification over numerical or word variables preserves Sigma-p.r.
 NUM_MIN - Numerical minimization M(P)=lambda x alpha [min_t P(t,x,alpha)].
 NUM_MIN_EFFECTIVE - Guide 6 Lemma 1 and Corollary 2: numerical minimization preserves effective computability when the predicate domain is effectively computable, in particular for total predicates.
@@ -109,6 +116,7 @@ S_PARSE_UNIQUE - Guide 7 Lemma 1: programs parse uniquely into instructions.
 S_I_IN_PROGRAM - I_i^P, the i-th instruction of a program, with epsilon outside the program range.
 S_N_PROGRAM - n(P), the number of instructions in a program.
 S_BAS - Bas(I): the basic instruction underlying a possibly labelled instruction.
+WORD_FINITE_SUPPORT_TUPLES - The set Sigma^{* [N]} of infinite word tuples with all but finitely many coordinates equal to epsilon.
 S_STATE - State of S^Sigma: finite-support numeric and word variable contents.
 S_DESC - S^Sigma instantaneous description (i,sigma-number-state,sigma-word-state).
 S_SUCCESSOR - S_P, the successor function on instantaneous descriptions for a program P.

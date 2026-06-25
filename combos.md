@@ -2,7 +2,7 @@
 
 **Combo 1.**
 
-$(1)$ Defina cuando un conjunto $S\subseteq\omega^n\times\Sigma^{\ast m}$ es llamado $\Sigma$-recursivo
+$(1)$ Defina cuando un conjunto $S\subseteq\omega^n\times\Sigma^{\ast m}$ es llamado $\Sigma$-recursivo (no hace falta que defina "función $\Sigma$-recursiva")
 
 $(2)$ Defina $\langle s_1,s_2,\ldots\rangle$
 
@@ -14,7 +14,7 @@ $(5)$ Defina $R(f,\mathcal{G})$ (haga el caso de valores numéricos)
 
 **Combo 2.** Defina:
 
-$(1)$ $d\overset{n}{\vdash}d'$ y $d\overset{\ast}{\vdash}d'$
+$(1)$ $d\overset{n}{\vdash}d'$ y $d\overset{\ast}{\vdash}d'$ (no hace falta que defina $\vdash$)
 
 $(2)$ $L(M)$
 
@@ -26,7 +26,7 @@ $(5)$ $(x)_i$
 
 **Combo 3.**
 
-$(1)$ Defina cuando un conjunto $S\subseteq\omega^n\times\Sigma^{\ast m}$ es llamado $\Sigma$-recursivamente enumerable
+$(1)$ Defina cuando un conjunto $S\subseteq\omega^n\times\Sigma^{\ast m}$ es llamado $\Sigma$-recursivamente enumerable (no hace falta que defina "función $\Sigma$-recursiva")
 
 $(2)$ Defina $s^\le$
 
@@ -70,9 +70,9 @@ $(1)$ "estado"
 
 $(2)$ "descripción instantánea"
 
-$(3)$ $S_\mathcal{P}$
+$(3)$ $S_\mathcal{P}$ (dar la definición matemática)
 
-$(4)$ "estado obtenido luego de $t$ pasos, partiendo del estado $(\overrightarrow{s},\overrightarrow{\sigma})$"
+$(4)$ "estado obtenido luego de correr $t$ pasos a $\mathcal{P}$, partiendo del estado $(\overrightarrow{s},\overrightarrow{\sigma})$"
 
 $(5)$ "$\mathcal{P}$ se detiene (luego de $t$ pasos), partiendo desde el estado $(\overrightarrow{s},\overrightarrow{\sigma})$"
 
@@ -110,13 +110,13 @@ $(9)$ Los conjuntos $A$ y $N$
 
 **Combo 14.** Explique en forma detallada la notación lambda
 
-**Combo 15.** Dada una función $f:D_f\subseteq\omega\times\Sigma^\ast\to\omega$, describa qué tipo de objeto es y qué propiedades debe tener el macro:
+**Combo 15.** Dada una función $f:D_f\subseteq\omega\times\Sigma^\ast\to\omega$, describa qué tipo de objeto es y qué propiedades debe tener (cuando exista) el macro:
 
 $$
 \left[V2\leftarrow f(V1,W1)\right]
 $$
 
-**Combo 16.** Dado un predicado $P:D_P\subseteq\omega\times\Sigma^\ast\to\omega$, describa qué tipo de objeto es y qué propiedades debe tener el macro:
+**Combo 16.** Dado un predicado $P:D_f\subseteq\omega\times\Sigma^\ast\to\omega$, describa qué tipo de objeto es y qué propiedades debe tener (cuando exista) el macro:
 
 $$
 \left[\mathrm{IF}\ P(V1,W1)\ \mathrm{GOTO}\ A1\right]
@@ -214,7 +214,7 @@ $$
 \mathcal{G}_a:\omega\times S_1\times S_2\times L_1\times L_2\times\Sigma^\ast\to\omega
 $$
 
-*para cada $a\in\Sigma$. Si $f$ y cada $\mathcal{G}_a$ son $\Sigma$-efectivamente computables, entonces $R(f,\mathcal{G})$ lo es.*
+*para cada $a\in\Sigma$. Si $f$, $\mathcal{G}_{@}$, $\mathcal{G}_{\%}$ y $\mathcal{G}_{!}$ son $\Sigma$-efectivamente computables, entonces $R(f,\mathcal{G})$ lo es.*
 
 (Es un ejercicio de la Guía 5)
 

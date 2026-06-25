@@ -35,7 +35,6 @@ WORD_STAR_LE - *^le, the map from natural numbers to the word at that position i
 WORD_HASH_LE - #^le, the map sending a word to its position in the <=_le order/base-|Sigma| numeral system.
 WORD_HASH_STAR_INVERSE - Guide 2 Lemma 4: #^le is the inverse of *^le.
 WORD_ORDER_LE - The induced total order on Sigma^* from a total order on Sigma.
-WORD_LEX_ORDER - Guide 2 Lemma 5: lexicographic characterization of the induced order on Sigma^*.
 WORD_ORDER_LEAST_ELEMENT - Guide 2 Lemma 6: every nonempty subset of Sigma^* has a least element in the induced word order.
 COORD_FUNCTIONS - Coordinate functions F_(i)=p_i^{n,m} o F for functions with tuple-valued output.
 TM_DEF - Mathematical definition of a Turing machine (Q,Sigma,Gamma,delta,q0,B,F).
@@ -50,7 +49,6 @@ TURING_COMP_SET - Sigma-Turing computable set in the Turing paradigm.
 TURING_ENUM_SET - Sigma-Turing enumerable set in the Turing paradigm.
 COMPOSITION_MIXED_TYPE - Guide 5 Lemma 1: nonempty mixed composition has the stated compatible type and domain formula.
 RECTANGULAR_SET - Rectangular Sigma-mixed set S_1 x ... x S_n x L_1 x ... x L_m.
-RECTANGULAR_SET_CHAR - Guide 5 Lemma 3: characterization of rectangular sets by property (R).
 PR_NUM_NUM_R - Primitive recursion over a numerical variable with numerical values, R(f,g).
 PR_NUM_STR_R - Primitive recursion over a numerical variable with word values, R(f,g).
 SIGMA_INDEXED_FAMILY - A Sigma-indexed family of functions G with domain Sigma, written G_a.
@@ -71,13 +69,7 @@ EFF_ENUM_SET - Sigma-effectively enumerable set.
 EFF_ENUM_PROC - Procedure-based characterization of nonempty Sigma-effectively enumerable sets, and the phrase "P enumera S".
 EFF_COMP_IMPLIES_EFF_ENUM - Guide 3 Lemma 2: every Sigma-effectively computable set is Sigma-effectively enumerable.
 EFF_COMP_SET_ENUM_COMP_CHAR - Guide 3 Theorem 3: S is effectively computable iff both S and its ambient complement are effectively enumerable.
-TURING_TO_EFFECTIVE - Guide 4 Proposition 1: every Turing-computable function is effectively computable.
-EFF_COMP_COMPOSITION - Guide 5 Lemma 2: composition preserves Sigma-effective computability.
-EFF_REC_NUM_NUM - Guide 5 Lemma 4: numerical recursion with numerical values preserves effective computability.
-EFF_REC_NUM_STR - Guide 5 Lemma 5: numerical recursion with word values preserves effective computability.
 EFF_REC_ALPHA_NUM - Guide 5 Lemma 6 / combo exercise: alpha-recursion with numerical values preserves effective computability.
-EFF_REC_ALPHA_STR - Guide 5 Lemma 7: alpha-recursion with word values preserves effective computability.
-PR_EFFECTIVE - Guide 5 Proposition 8: every Sigma-p.r. function is Sigma-effectively computable.
 PR_DEC_NUMERAL - Guide 5 Lemma 13: Dec is Gamma-primitive recursive when Gamma contains Num.
 PR_PRED_LOGIC - Guide 5 Lemma 15: Boolean operations on Sigma-p.r. predicates preserve Sigma-p.r.
 PR_SET - Sigma-primitive recursive set: its characteristic function is Sigma-p.r.
@@ -88,22 +80,18 @@ PR_TOTAL_EXTENSION - Guide 5 Lemma 19: every Sigma-p.r. partial function has a S
 PR_SET_DOMAIN_CHAR - Guide 5 Proposition 20: S is Sigma-p.r. iff S is the domain of a Sigma-p.r. function.
 FUNC_DISJOINT_UNION - Disjoint-domain union f_1 union ... union f_k as a function defined casewise on the union of the domains.
 PR_CASE_SPLIT - Guide 5 Lemma 21: piecewise union of disjoint-domain Sigma-p.r. functions is Sigma-p.r.
-PR_WORD_SYMBOL_AT - Guide 5 Lemma 22: the function (i, alpha) |-> [alpha]_i is Sigma-primitive recursive.
 SUM_PROD_CONCAT_NOTATION - Bounded sum, product, and concatenation notation for functions over a numerical interval, including empty-interval values and domains.
 PR_SUMMATION - Guide 5 Lemma 23: bounded sums, products, and concatenations of Sigma-p.r. functions are Sigma-p.r.
 BOUNDED_QUANT_NOTATION - Bounded universal/existential quantification notation over numerical and word variables, including its domain conventions and empty-bound cases.
 PR_BOUNDED_QUANT - Guide 5 Lemma 24: bounded universal/existential quantification over numerical or word variables preserves Sigma-p.r.
 NUM_MIN - Numerical minimization M(P)=lambda x alpha [min_t P(t,x,alpha)].
-NUM_MIN_EFFECTIVE - Guide 6 Lemma 1 and Corollary 2: numerical minimization preserves effective computability when the predicate domain is effectively computable, in particular for total predicates.
 REC_CLASS - Definition of Sigma-recursive functions R^Sigma from PR initial functions by composition, primitive recursion, and total numerical minimization.
-REC_EFFECTIVE - Guide 6 Proposition 3: every Sigma-recursive function is Sigma-effectively computable.
 REC_STRICTLY_EXTENDS_PR - Guide 6 Proposition 4: Sigma-primitive recursive functions are a proper subclass of Sigma-recursive functions.
 BOUNDED_MIN_NUM - Guide 6 Lemma 5: if P is Sigma-p.r., M(P) is Sigma-recursive; if M(P) has a Sigma-p.r. bound, then M(P) is Sigma-p.r.
 PR_DIVISION - Guide 6 Lemma 6: quotient and remainder are Sigma-primitive recursive.
 PR_PRIME_SEQUENCE - Guide 6 Lemma 7: the prime-number sequence function pr is Sigma-primitive recursive.
 PR_TUPLE_COORD - Guide 6 Exercise 14(a): the coordinate-extraction function (x,i) |-> (x)_i is Sigma-primitive recursive.
 ALPHA_MIN - Alphabetic minimization M^le(P): least word, in the induced order, satisfying a predicate.
-ALPHA_BOUNDED_MIN - Guide 6 Lemma 8: bounded alphabetic minimization of a Sigma-p.r. predicate is recursive, and p.r. under a length bound.
 RE_SET - Sigma-recursively enumerable set.
 REC_SET - Sigma-recursive set: its characteristic function is Sigma-recursive.
 REC_SET_CLOSURE - Closure of Sigma-recursive sets under union, intersection, difference, and ambient complement.
@@ -126,7 +114,6 @@ NORM_STATE - The state ||x_1,...,x_n,alpha_1,...,alpha_m|| used as a program inp
 PSI_FN - The functions Psi_P^{n,m,#} and Psi_P^{n,m,*}, returning N1 or P1 after program P halts from a normalized input state.
 SIGMA_COMP_FN - Sigma-computable function in the imperative model.
 PROGRAM_COMPUTES_FN - The phrase "program P computes f", i.e. f equals the corresponding Psi_P function.
-LEIBNIZ_VN - Guide 7 Proposition 2: every Sigma-computable function is Sigma-effectively computable.
 MACRO_GENERAL - General macro concept: a word template with official/auxiliary variables and labels whose expansions simulate program fragments.
 MACRO_ASSIGN_FN - Assignment macro [V<-f(...)] or [W<-f(...)], with official variables, auxiliary variables/labels, expansions, and preservation/output behavior.
 COMPUTABLE_ASSIGN_MACRO - Guide 7 Proposition 3: computable functions have assignment macros.
@@ -137,7 +124,6 @@ SIGMA_ENUM_SET - Sigma-enumerable set in the imperative model.
 SIGMA_ENUM_PROGRAM_CHAR - Guide 7 Proposition 6: characterization of nonempty Sigma-enumerable sets by one program outputting all elements.
 PROGRAM_ENUMERATES_SET - The phrase "program P enumerates S" in the single-program characterization of Sigma-enumerability.
 SIGMA_COMP_SET - Sigma-computable set, and the program deciding membership in it.
-PROGRAM_DECIDES_SET - The phrase "program P decides membership in S" by computing chi_S on the ambient product.
 MACRO_IF_COMP_SET - IF macro for Sigma-computable set membership, obtained from the characteristic function.
 NVG_THEOREM - Guide 8 Theorem 1: Neumann vence a Godel, every Sigma-recursive function is Sigma-computable.
 SECOND_MACRO_SPRING - Guide 8 Proposition 2: recursive functions/predicates have assignment and IF macros in S^Sigma.
@@ -156,8 +142,6 @@ HALT_NM_PR - Guide 8 Lemma 7: Halt^{n,m} is primitive recursive over Sigma union
 T_NM - T^{n,m}=M(Halt^{n,m}), the halting-time function for S^Sigma programs.
 T_NM_REC - Guide 8 Proposition 8: T^{n,m}, the halting-time function, is (Sigma union Sigma_p)-recursive.
 GVN_THEOREM - Guide 8 Theorem 9: Godel vence a Neumann, every Sigma-computable function is Sigma-recursive.
-T_NM_NOT_PR - Guide 8 Proposition 10: T^{n,m} is not primitive recursive.
-PR_MIN_NOT_CLOSED - Guide 8 Corollary 11: minimization of a primitive-recursive predicate need not be primitive recursive.
 GT_THEOREM - Guide 8 Theorem 12: Godel vence a Turing, every Sigma-Turing computable function is Sigma-recursive.
 TVN_THEOREM - Guide 8 Theorem 13: Turing vence a Neumann, every Sigma-computable function is Sigma-Turing computable.
 PARADIGM_EQUIV_FN - Guide 8 Theorem 14: equivalence of the main formal computability paradigms for functions.
@@ -167,12 +151,9 @@ CHURCH_THESIS - The Church Thesis as used in Guide 8/9: every effectively comput
 REC_CASE_SPLIT - Guide 9 Lemma 1: piecewise union of disjoint-domain Sigma-recursive functions is Sigma-recursive.
 REC_RESTRICTION_RE - Guide 9 Lemma 2: restricting a Sigma-recursive function to a Sigma-r.e. subset of its domain is Sigma-recursive.
 RE_SET_BASIC_CLOSURE - Guide 9 Lemma 3: recursively enumerable sets are closed under union and intersection, and recursive sets are recursively enumerable.
-RE_COENUM_IMPLIES_REC - Guide 9 Lemma 4: if a set and its complement are recursively enumerable, then the set is recursive.
 RE_SET_CHAR - Guide 9 Theorem 5: characterizations of Sigma-r.e. sets by recursive images, recursive domains, and p.r. enumerations.
 AUTOHALT - For Sigma containing Sigma_p, AutoHalt^Sigma(P): the predicate saying that program P halts when started on its own code.
 AUTOHALT_NOT_REC - Guide 9 Lemma 6: for Sigma containing Sigma_p, AutoHalt^Sigma is not Sigma-recursive.
 AUTOHALT_NOT_EFF - Guide 9 Theorem 7: for Sigma containing Sigma_p, AutoHalt^Sigma is not Sigma-effectively computable.
 A_N_SETS - For Sigma containing Sigma_p, the sets A={P in Pro^Sigma: AutoHalt^Sigma(P)=1} and N={P in Pro^Sigma: AutoHalt^Sigma(P)=0}.
 A_RE_NOT_REC_N_NOT_RE - Guide 9 Lemma 8: for Sigma containing Sigma_p, A is Sigma-r.e. and not Sigma-recursive, and N is not Sigma-r.e.
-A_EFF_ENUM_NOT_COMP_N_NOT_EFF_ENUM - Guide 9 Proposition 9: A is effectively enumerable but not effectively computable, and N is not effectively enumerable.
-REC_MIN_COUNTEREXAMPLE - Guide 9 Proposition 10: a recursive predicate can have a non-effective, non-recursive minimization.

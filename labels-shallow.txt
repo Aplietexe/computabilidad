@@ -1,0 +1,42 @@
+FUNC_EXT_EQUALITY - Guide 1 Lemma 1: two functions are equal iff they have the same domain and agree at every point of that domain.
+TUPLE_CODE_BIJECTION - Guide 2 Theorem 2: tuple coding and decoding maps are inverse bijections.
+WORD_HASH_STAR_INVERSE - Guide 2 Lemma 4: #^le is the inverse of *^le.
+PR_CONSTANTS - Guide 5 Lemma 11: arbitrary numeric and word constant functions are Sigma-primitive recursive.
+PR_CONCAT_LENGTH - Primitive recursiveness of word concatenation and word length.
+PR_WORD_POWER - Guide 5 Lemma 12(b): the word-power function lambda x alpha[alpha^x] is Sigma-p.r.
+PR_WORD_ORDER_CODING - Guide 5 Exercise 24: s^le, #^le, and *^le are Sigma-primitive recursive.
+PR_BASIC_ARITH - Standard primitive-recursive numeric functions/comparisons, including the empty function, addition, multiplication, factorial, exponentiation, truncated subtraction, max, equality, and <=.
+EFF_ENUM_PROC - Procedure-based characterization of nonempty Sigma-effectively enumerable sets, and the phrase "P enumera S".
+EFF_COMP_IMPLIES_EFF_ENUM - Guide 3 Lemma 2: every Sigma-effectively computable set is Sigma-effectively enumerable.
+EFF_COMP_SET_ENUM_COMP_CHAR - Guide 3 Theorem 3: S is effectively computable iff both S and its ambient complement are effectively enumerable.
+EFF_REC_ALPHA_NUM - Guide 5 Lemma 6 / combo exercise: alpha-recursion with numerical values preserves effective computability.
+PR_PRED_LOGIC - Guide 5 Lemma 15: Boolean operations on Sigma-p.r. predicates preserve Sigma-p.r.
+PR_SET_CLOSURE - Guide 5 Lemma 16: Sigma-p.r. sets are closed under union, intersection, and difference.
+PR_RECTANGULAR_PRODUCT - Guide 5 Lemma 17: a nonempty rectangular product is Sigma-p.r. iff its component sets are Sigma-p.r.
+PR_RESTRICTION - Guide 5 Lemma 18: restricting a Sigma-p.r. function to a Sigma-p.r. subset of its domain is Sigma-p.r.
+PR_TOTAL_EXTENSION - Guide 5 Lemma 19: every Sigma-p.r. partial function has a Sigma-p.r. total extension on its ambient mixed product.
+PR_SET_DOMAIN_CHAR - Guide 5 Proposition 20: S is Sigma-p.r. iff S is the domain of a Sigma-p.r. function.
+PR_CASE_SPLIT - Guide 5 Lemma 21: piecewise union of disjoint-domain Sigma-p.r. functions is Sigma-p.r.
+PR_SUMMATION - Guide 5 Lemma 23: bounded sums, products, and concatenations of Sigma-p.r. functions are Sigma-p.r.
+PR_BOUNDED_QUANT - Guide 5 Lemma 24: bounded universal/existential quantification over numerical or word variables preserves Sigma-p.r.
+BOUNDED_MIN_NUM - Guide 6 Lemma 5: if P is Sigma-p.r., M(P) is Sigma-recursive; if M(P) has a Sigma-p.r. bound, then M(P) is Sigma-p.r.
+PR_TUPLE_COORD - Guide 6 Exercise 14(a): the coordinate-extraction function (x,i) |-> (x)_i is Sigma-primitive recursive.
+REC_SET_CLOSURE - Closure of Sigma-recursive sets under union, intersection, difference, and ambient complement.
+ALPHABET_INDEPENDENCE - Guide 6 Theorem 9: recursiveness, primitive recursiveness, r.e.-ness and recursive-set status do not depend on enlarging/changing the alphabet when the object is mixed for both alphabets.
+FIRST_MACRO_SPRING - Guide 7 Proposition 5: computable functions and predicates have assignment and IF macros in S^Sigma.
+SIGMA_ENUM_PROGRAM_CHAR - Guide 7 Proposition 6: characterization of nonempty Sigma-enumerable sets by one program outputting all elements.
+NVG_THEOREM - Guide 8 Theorem 1: Neumann vence a Godel, every Sigma-recursive function is Sigma-computable.
+SECOND_MACRO_SPRING - Guide 8 Proposition 2: recursive functions/predicates have assignment and IF macros in S^Sigma.
+PROGRAM_SYNTAX_PR - Guide 8 Lemma 6: Pro^Sigma is p.r. over Sigma union Sigma_p, and n(P), I_i^P are p.r. functions.
+RUN_ENCODING_PR - Guide 8 Proposition 5: i^{n,m}, E_{#j}^{n,m}, and E_{*j}^{n,m} are p.r. over Sigma union Sigma_p.
+HALT_NM_PR - Guide 8 Lemma 7: Halt^{n,m} is primitive recursive over Sigma union Sigma_p.
+T_NM_REC - Guide 8 Proposition 8: T^{n,m}, the halting-time function, is (Sigma union Sigma_p)-recursive.
+GVN_THEOREM - Guide 8 Theorem 9: Godel vence a Neumann, every Sigma-computable function is Sigma-recursive.
+CHURCH_THESIS - The Church Thesis as used in Guide 8/9: every effectively computable function is captured by the formal paradigms, in particular by Sigma-recursive functions.
+REC_CASE_SPLIT - Guide 9 Lemma 1: piecewise union of disjoint-domain Sigma-recursive functions is Sigma-recursive.
+REC_RESTRICTION_RE - Guide 9 Lemma 2: restricting a Sigma-recursive function to a Sigma-r.e. subset of its domain is Sigma-recursive.
+RE_SET_BASIC_CLOSURE - Guide 9 Lemma 3: recursively enumerable sets are closed under union and intersection, and recursive sets are recursively enumerable.
+RE_SET_CHAR - Guide 9 Theorem 5: characterizations of Sigma-r.e. sets by recursive images, recursive domains, and p.r. enumerations.
+AUTOHALT_NOT_REC - Guide 9 Lemma 6: for Sigma containing Sigma_p, AutoHalt^Sigma is not Sigma-recursive.
+AUTOHALT_NOT_EFF - Guide 9 Theorem 7: for Sigma containing Sigma_p, AutoHalt^Sigma is not Sigma-effectively computable.
+A_RE_NOT_REC_N_NOT_RE - Guide 9 Lemma 8: for Sigma containing Sigma_p, A is Sigma-r.e. and not Sigma-recursive, and N is not Sigma-r.e.

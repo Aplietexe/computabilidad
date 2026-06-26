@@ -19,7 +19,7 @@ y, para cada \(a\in\Sigma\),
 \[
 \mathcal G_a:\omega\times S_1\times\cdots\times S_n\times L_1\times\cdots\times L_m\times\Sigma^\ast\to\omega
 \]
-pertenecen a \(R_k^\Sigma\). Si \(\Sigma=\{a_1,\ldots,a_r\}\), por hipotesis inductiva \(f,\mathcal G_{a_1},\ldots,\mathcal G_{a_r}\) son \(\Sigma\)-computables, luego existen sus macros de asignacion.
+pertenecen a \(R_k^\Sigma\). Si \(\Sigma=\{a_1,\ldots,a_r\}\), por hipotesis inductiva \(f,\mathcal G_{a_1},\ldots,\mathcal G_{a_r}\) son \(\Sigma\)-computables; por la Proposicion 5 de la Guia 7 (Primer Manantial de Macros), existen sus macros de asignacion.
 
 Consideremos el programa:
 \[

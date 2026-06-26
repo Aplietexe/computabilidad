@@ -11,7 +11,7 @@ T^{n,m}\circ[p_1^{n,m},\ldots,p_{n+m}^{n,m},C_{\mathcal P_0}^{n,m}],
 p_1^{n,m},\ldots,p_{n+m}^{n,m},C_{\mathcal P_0}^{n,m}
 \right].
 \]
-Por Proposiciones 8 y 5, y porque proyecciones y constantes son \(\Gamma\)-p.r., \(G\) es \(\Gamma\)-recursiva.
+Por la Proposicion 8 de la Guia 8 (\(T^{n,m}\) es \((\Sigma\cup\Sigma_p)\)-recursiva), la Proposicion 5 de la Guia 8 (las funciones \(E_{\#j}^{n,m}\) y \(E_{\ast j}^{n,m}\) son \((\Sigma\cup\Sigma_p)\)-p.r.) y porque proyecciones y constantes son \(\Gamma\)-p.r., \(G\) es \(\Gamma\)-recursiva.
 
 Ademas,
 \[
@@ -24,4 +24,4 @@ G(\vec x,\vec\alpha)
 =\Psi_{\mathcal P_0}^{n,m,\ast}(\vec x,\vec\alpha)
 =f(\vec x,\vec\alpha).
 \]
-Luego \(G=f\), asi que \(f\) es \(\Gamma\)-recursiva. Como \(f\) es \(\Sigma\)-mixta y \(\Gamma\)-mixta, por Independencia del Alfabeto \(f\) es \(\Sigma\)-recursiva. \(\blacksquare\)
+Luego \(G=f\), asi que \(f\) es \(\Gamma\)-recursiva. Como \(f\) es \(\Sigma\)-mixta y \(\Gamma\)-mixta, por el Teorema de Independencia del Alfabeto citado en la Guia 8, \(f\) es \(\Sigma\)-recursiva. \(\blacksquare\)

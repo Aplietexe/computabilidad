@@ -1,22 +1,30 @@
-# Lema 5, guia 6: minimizacion acotada
+# Lema: minimizacion acotada de predicados \(\Sigma\)-p.r.
 
-**Enunciado.** Sea \(E=\omega^n\times\Sigma^{\ast m}\). Si
+**Enunciado.** Sean \(n,m\ge 0\). Sea
 \[
-P:D_P\subseteq\omega\times E\to\omega
+P:D_P\subseteq\omega\times\omega^n\times\Sigma^{\ast m}\to\omega
 \]
-es un predicado \(\Sigma\)-p.r., entonces \(M(P)\) es \(\Sigma\)-recursiva. Si ademas existe \(f:E\to\omega\) \(\Sigma\)-p.r. tal que
+un predicado \(\Sigma\)-p.r. Entonces
+
+**(a)** \(M(P)\) es \(\Sigma\)-recursiva.
+
+**(b)** Si hay una funcion \(\Sigma\)-p.r. \(f:\omega^n\times\Sigma^{\ast m}\to\omega\) tal que
 \[
-M(P)(e)=\min_tP(t,e)\le f(e)\qquad(e\in D_{M(P)}),
+M(P)(\overrightarrow{x},\overrightarrow{\alpha})
+=\min_t P(t,\overrightarrow{x},\overrightarrow{\alpha})
+\le f(\overrightarrow{x},\overrightarrow{\alpha}),
+\quad\text{para cada }(\overrightarrow{x},\overrightarrow{\alpha})\in D_{M(P)},
 \]
 entonces \(M(P)\) es \(\Sigma\)-p.r.
 
-**Demostracion.** Definimos
+**Demostracion.** Sea \(E=\omega^n\times\Sigma^{\ast m}\). Definimos
 \[
 \overline P=P\cup C_0^{n+1,m}|_{(\omega\times E)-D_P}.
 \]
-Como \(P\) es \(\Sigma\)-p.r., \(D_P\) y \((\omega\times E)-D_P\) son \(\Sigma\)-p.r.; por restriccion y division por casos, \(\overline P\) es \(\Sigma\)-p.r. y \(\Sigma\)-total. Ademas, para todo \(e\in E\),
+Como \(P\) es \(\Sigma\)-p.r., \(D_P\) es \(\Sigma\)-p.r. por la Proposicion 20 de la Guia 5 (caracterizacion de conjuntos \(\Sigma\)-p.r. como dominios), y \((\omega\times E)-D_P\) es \(\Sigma\)-p.r. por el Lema 16 de la Guia 5 (clausura por complemento de conjuntos \(\Sigma\)-p.r.). Por el Lema 18 de la Guia 5 (restriccion de una funcion \(\Sigma\)-p.r. a un dominio \(\Sigma\)-p.r.) y el Lema 21 de la Guia 5 (division por casos para funciones \(\Sigma\)-p.r.), \(\overline P\) es \(\Sigma\)-p.r. y \(\Sigma\)-total. Ademas, para todo \(e\in E\),
 \[
-\{t:P(t,e)=1\}=\{t:\overline P(t,e)=1\},
+\{t\in\omega:(t,e)\in D_P\text{ y }P(t,e)=1\}
+=\{t\in\omega:\overline P(t,e)=1\},
 \]
 luego \(M(P)=M(\overline P)\).
 
@@ -53,7 +61,7 @@ q=\lambda t\overrightarrow{x}\overrightarrow{\alpha}
 Como la exponenciacion es \(\Sigma\)-p.r., \(q\) es \(\Sigma\)-p.r. Por el Lema de la sumatoria/productoria,
 \[
 G=\lambda xy\overrightarrow{x}\overrightarrow{\alpha}
-\left[\prod_{t=x}^{y}q(t,\overrightarrow{x},\overrightarrow{\alpha})\right]
+\left[\prod_{t=x}^{t=y}q(t,\overrightarrow{x},\overrightarrow{\alpha})\right]
 \]
 es \(\Sigma\)-p.r.; por composicion, tambien lo es
 \[

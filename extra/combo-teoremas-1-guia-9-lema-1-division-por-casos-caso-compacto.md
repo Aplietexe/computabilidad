@@ -1,8 +1,8 @@
-# Lema 1, guia 9: division por casos para funciones \(\Sigma\)-recursivas
+# Lema: division por casos para funciones \(\Sigma\)-recursivas
 
-**Enunciado (caso).** Supongamos \(f_i:D_{f_i}\subseteq\omega\times\Sigma^\ast\to\omega\), \(i=1,2\), son \(\Sigma\)-recursivas y \(D_{f_1}\cap D_{f_2}=\emptyset\). Entonces \(f_1\cup f_2\) es \(\Sigma\)-recursiva.
+**Enunciado.** Supongamos \(f_i:D_{f_i}\subseteq\omega^n\times\Sigma^{\ast m}\to O\), \(i=1,\ldots,k\), son funciones \(\Sigma\)-recursivas tales que \(D_{f_i}\cap D_{f_j}=\emptyset\) para \(i\ne j\). Entonces la funcion \(f_1\cup\cdots\cup f_k\) es \(\Sigma\)-recursiva.
 
-**Demostracion.** Por Neumann vence a Godel, sean \(\mathcal P_i\) programas que computan \(f_i\). Para \(i=1,2\), definimos
+**Demostracion (caso \(k=2,\ n=m=1,\ O=\omega\)).** Por Neumann vence a Godel, sean \(\mathcal P_i\) programas que computan \(f_i\). Para \(i=1,2\), definimos
 \[
 H_i=\lambda tx\alpha\left[Halt^{1,1}(t,x,\alpha,\mathcal P_i)\right].
 \]

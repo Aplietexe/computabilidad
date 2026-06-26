@@ -1,6 +1,6 @@
-# Lema 6, guia 9: \(AutoHalt^\Sigma\) no es \(\Sigma\)-recursivo
+# Lema: \(AutoHalt^\Sigma\) no es \(\Sigma\)-recursivo
 
-**Enunciado.** Si \(\Sigma\supseteq\Sigma_p\), entonces \(AutoHalt^\Sigma\) no es \(\Sigma\)-recursivo.
+**Enunciado.** Supongamos \(\Sigma\supseteq\Sigma_p\). Entonces \(AutoHalt^\Sigma\) no es \(\Sigma\)-recursivo.
 
 **Demostracion.** Recordemos que, para todo \(\mathcal P\in Pro^\Sigma\),
 \[

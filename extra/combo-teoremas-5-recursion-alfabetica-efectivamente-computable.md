@@ -1,4 +1,4 @@
-# Lema del combo 5, guia 5
+# Lema: recursion alfabetica preserva computabilidad efectiva
 
 **Enunciado.** Sea \(\Sigma=\{@,\%,!\}\). Sea
 \[

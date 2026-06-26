@@ -1,8 +1,12 @@
-# Lema 2, guia 3
+# Lema: \(\Sigma\)-efectivamente computable implica \(\Sigma\)-efectivamente enumerable
 
-**Enunciado.** Si \(S\subseteq\omega^n\times\Sigma^{\ast m}\) es \(\Sigma\)-efectivamente computable, entonces \(S\) es \(\Sigma\)-efectivamente enumerable.
+**Enunciado.** Si \(S\subseteq\omega^n\times\Sigma^{\ast m}\) es \(\Sigma\)-efectivamente computable entonces \(S\) es \(\Sigma\)-efectivamente enumerable.
 
-**Demostracion.** Supongamos \(S \ne \emptyset\). Sea \((\overrightarrow{z}, \overrightarrow{\gamma}) \in S\), fijo. Sea \(\mathbb{P}\) un procedimiento efectivo que compute a \(\chi_S^{\omega^n \times \Sigma^{\ast m}}\). Ya vimos en el ejemplo anterior que \(\omega^2 \times \Sigma^{\ast 3}\) es \(\Sigma\)-efectivamente enumerable. En forma similar se puede ver que \(\omega^n \times \Sigma^{\ast m}\) lo es. Sea \(\mathbb{P}_1\) un procedimiento efectivo que enumere a \(\omega^n \times \Sigma^{\ast m}\). Entonces el siguiente procedimiento enumera a \(S\):
+**Demostracion.** Si \(S=\emptyset\), entonces \(S\) es \(\Sigma\)-efectivamente enumerable por definicion. Supongamos \(S \ne \emptyset\). Sea \((\overrightarrow{z}, \overrightarrow{\gamma}) \in S\), fijo. Sea \(\mathbb{P}\) un procedimiento efectivo que compute a \(\chi_S^{\omega^n \times \Sigma^{\ast m}}\).
+
+Como \(\omega^n\times\Sigma^{\ast m}\) es \(\Sigma\)-efectivamente enumerable, sea \(\mathbb{P}_1\) un procedimiento efectivo que enumera a \(\omega^n\times\Sigma^{\ast m}\).
+
+Entonces el siguiente procedimiento enumera a \(S\):
 
 Dato de entrada: \(x \in \omega\)
 

@@ -1,8 +1,8 @@
-# Lema 2, guia 9: restriccion de funciones \(\Sigma\)-recursivas
+# Lema: restriccion de funciones \(\Sigma\)-recursivas a conjuntos \(\Sigma\)-r.e.
 
-**Enunciado (caso).** Si \(f:D_f\subseteq\omega\times\Sigma^\ast\to\Sigma^\ast\) es \(\Sigma\)-recursiva y \(\emptyset\ne S\subseteq D_f\) es \(\Sigma\)-r.e., entonces \(f|_S\) es \(\Sigma\)-recursiva.
+**Enunciado.** Supongamos \(f:D_f\subseteq\omega^n\times\Sigma^{\ast m}\to O\) es \(\Sigma\)-recursiva y \(S\subseteq D_f\) es \(\Sigma\)-r.e., entonces \(f|_S\) es \(\Sigma\)-recursiva.
 
-**Demostracion.** Como \(S\ne\emptyset\), existe
+**Demostracion (caso \(S\) no vacio, \(n=m=1\) y \(O=\Sigma^\ast\)).** Como \(S\ne\emptyset\), existe
 \[
 F:\omega\to\omega\times\Sigma^\ast
 \]

@@ -1,10 +1,10 @@
-# Teorema 3, guia 3: solo \((b)\Rightarrow(a)\)
+# Teorema: caracterizacion de conjuntos \(\Sigma\)-efectivamente computables, \((b)\Rightarrow(a)\)
 
-**Enunciado.** Sea \(S \subseteq \omega^n \times \Sigma^{\ast m}\). Son equivalentes
+**Enunciado.** Sea \(S\subseteq\omega^n\times\Sigma^{\ast m}\). Son equivalentes
 
 **(a)** \(S\) es \(\Sigma\)-efectivamente computable
 
-**(b)** \(S\) y \((\omega^n \times \Sigma^{\ast m}) - S\) son \(\Sigma\)-efectivamente enumerables
+**(b)** \(S\) y \((\omega^n\times\Sigma^{\ast m})-S\) son \(\Sigma\)-efectivamente enumerables
 
 **Demostracion de \((b)\Rightarrow(a)\).** Sea \(E=\omega^n\times\Sigma^{\ast m}\). Si \(S=\emptyset\) o \(S=E\), \(\chi_S^E\) es respectivamente constante \(0\) o constante \(1\), luego es \(\Sigma\)-efectivamente computable.
 

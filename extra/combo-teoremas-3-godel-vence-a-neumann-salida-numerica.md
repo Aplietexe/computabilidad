@@ -1,4 +1,4 @@
-# Teorema 9, guia 8: caso \(O=\omega\)
+# Teorema: Godel vence a Neumann, salida numerica
 
 **Enunciado.** Si \(f:D_f\subseteq\omega^n\times\Sigma^{\ast m}\to\omega\) es \(\Sigma\)-computable, entonces \(f\) es \(\Sigma\)-recursiva.
 
@@ -11,7 +11,7 @@ T^{n,m}\circ[p_1^{n,m},\ldots,p_{n+m}^{n,m},C_{\mathcal P_0}^{n,m}],
 p_1^{n,m},\ldots,p_{n+m}^{n,m},C_{\mathcal P_0}^{n,m}
 \right].
 \]
-Por la Proposicion 8 de la Guia 8, \(T^{n,m}\) es \(\Gamma\)-recursiva; por la Proposicion 5 de la Guia 8, \(E_{\#1}^{n,m}\) es \(\Gamma\)-p.r.; y proyecciones y constantes son \(\Gamma\)-p.r. Luego \(G\) es \(\Gamma\)-recursiva.
+Por la Proposicion 8 de la Guia 8 (\(T^{n,m}\) es \((\Sigma\cup\Sigma_p)\)-recursiva), \(T^{n,m}\) es \(\Gamma\)-recursiva; por la Proposicion 5 de la Guia 8 (las funciones \(E_{\#j}^{n,m}\) y \(E_{\ast j}^{n,m}\) son \((\Sigma\cup\Sigma_p)\)-p.r.), \(E_{\#1}^{n,m}\) es \(\Gamma\)-p.r.; y proyecciones y constantes son \(\Gamma\)-p.r. Luego \(G\) es \(\Gamma\)-recursiva.
 
 Ademas,
 \[

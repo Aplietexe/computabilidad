@@ -1,10 +1,10 @@
-# Lema 24, guia 5: caso \(\forall\) numerico
+# Lema: cuantificacion acotada universal numerica para predicados \(\Sigma\)-p.r.
 
-**Enunciado.** Sea \(\Sigma\) un alfabeto finito y sea
+**Enunciado.** Sea \(\Sigma\) un alfabeto finito. Sea
 \[
 P:S\times S_1\times\cdots\times S_n\times L_1\times\cdots\times L_m\to\omega
 \]
-un predicado \(\Sigma\)-p.r., con \(S,S_1,\ldots,S_n\subseteq\omega\) y \(L_1,\ldots,L_m\subseteq\Sigma^\ast\) todos no vacios. Si \(\overline S\subseteq S\) es \(\Sigma\)-p.r., entonces
+un predicado \(\Sigma\)-p.r., con \(S,S_1,\ldots,S_n\subseteq\omega\) y \(L_1,\ldots,L_m\subseteq\Sigma^\ast\) no vacios. Supongamos \(\overline S\subseteq S\) es \(\Sigma\)-p.r. Entonces
 \[
 \lambda x\overrightarrow{x}\overrightarrow{\alpha}[(\forall t\in\overline S)_{t\le x}P(t,\overrightarrow{x},\overrightarrow{\alpha})]
 \]

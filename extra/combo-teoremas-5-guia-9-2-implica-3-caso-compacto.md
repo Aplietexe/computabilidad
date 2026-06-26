@@ -1,6 +1,14 @@
-# Teorema 5, guia 9: \((2)\Rightarrow(3)\), caso \(k=l=1\), \(n=m=2\)
+# Teorema: caracterizacion de conjuntos \(\Sigma\)-r.e., \((2)\Rightarrow(3)\)
 
-**Demostracion.** Supongamos \(S\subseteq\omega^2\times\Sigma^{\ast2}\) y
+**Enunciado.** Dado \(S\subseteq\omega^n\times\Sigma^{\ast m}\), son equivalentes
+
+**(1)** \(S\) es \(\Sigma\)-recursivamente enumerable
+
+**(2)** \(S=I_F\), para alguna \(F:D_F\subseteq\omega^k\times\Sigma^{\ast l}\to\omega^n\times\Sigma^{\ast m}\) tal que cada \(F_{(i)}\) es \(\Sigma\)-recursiva.
+
+**(3)** \(S=D_f\), para alguna funcion \(\Sigma\)-recursiva \(f\).
+
+**Demostracion de \((2)\Rightarrow(3)\), caso \(k=l=1\) y \(n=m=2\).** Supongamos \(S\subseteq\omega^2\times\Sigma^{\ast2}\) y
 \[
 F:D_F\subseteq\omega\times\Sigma^\ast\to\omega^2\times\Sigma^{\ast2}
 \]

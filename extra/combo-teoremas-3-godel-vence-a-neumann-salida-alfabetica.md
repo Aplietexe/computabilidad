@@ -1,4 +1,4 @@
-# Teorema 9, guia 8: caso \(O=\Sigma^\ast\)
+# Teorema: Godel vence a Neumann, salida alfabetica
 
 **Enunciado.** Si \(f:D_f\subseteq\omega^n\times\Sigma^{\ast m}\to\Sigma^\ast\) es \(\Sigma\)-computable, entonces \(f\) es \(\Sigma\)-recursiva.
 

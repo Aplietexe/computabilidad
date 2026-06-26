@@ -1,16 +1,19 @@
-# Teorema 1, guia 8: Neumann vence a Godel, caso \(h=M(P)\)
+# Teorema: Neumann vence a Godel, caso \(h=M(P)\)
 
 **Enunciado.** Si \(h\) es \(\Sigma\)-recursiva, entonces \(h\) es \(\Sigma\)-computable.
 
-**Demostracion (caso \(h=M(P)\)).** Probamos por induccion en \(k\) que
+**Demostracion.** Probamos por induccion en \(k\) que
 \[
 (\ast_k)\qquad h\in R_k^\Sigma\Rightarrow h\text{ es }\Sigma\text{-computable}.
 \]
+
+Para \(k=0\), las funciones iniciales son computables por programas elementales: \(Suc\) por \(\mathrm{N}1\leftarrow\mathrm{N}1+1\); \(Pred\) por el programa que diverge en \(0\) y decrementa si \(\mathrm{N}1\ne0\); \(C_0^{0,0}\), \(C_\varepsilon^{0,0}\), \(d_a\) y las proyecciones, por asignaciones directas a \(\mathrm{N}1\) o \(\mathrm{P}1\).
+
 Supongamos \((\ast_k)\) y \(h=M(P)\), con
 \[
 P:\omega\times\omega^n\times\Sigma^{\ast m}\to\omega
 \]
-un predicado en \(R_k^\Sigma\). Por hipotesis inductiva, \(P\) es \(\Sigma\)-computable; luego existe el macro
+un predicado perteneciente a \(R_k^\Sigma\). Por hipotesis inductiva, \(P\) es \(\Sigma\)-computable; luego, por el Primer Manantial de Macros, existe el macro
 \[
 \left[\mathrm{IF}\ P(V1,\ldots,V\overline{n+1},W1,\ldots,W\overline m)\ \mathrm{GOTO}\ A1\right].
 \]

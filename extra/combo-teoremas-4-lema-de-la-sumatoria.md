@@ -1,10 +1,10 @@
-# Lema 23, guia 5: caso de la sumatoria
+# Lema: sumatoria de funciones \(\Sigma\)-p.r.
 
 **Enunciado.** Sea \(\Sigma\) un alfabeto finito. Si
 \[
 f:\omega\times S_1\times\cdots\times S_n\times L_1\times\cdots\times L_m\to\omega
 \]
-es \(\Sigma\)-p.r., con \(S_i\subseteq\omega\) y \(L_j\subseteq\Sigma^\ast\) no vacios, entonces
+es \(\Sigma\)-p.r., con \(S_1,\ldots,S_n\subseteq\omega\) y \(L_1,\ldots,L_m\subseteq\Sigma^\ast\) no vacios, entonces la funcion
 \[
 \lambda xy\overrightarrow{x}\overrightarrow{\alpha}\left[\sum_{t=x}^{t=y} f(t,\overrightarrow{x},\overrightarrow{\alpha})\right]
 \]

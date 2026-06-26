@@ -1,6 +1,6 @@
-# Proposicion 20, guia 5
+# Proposicion: caracterizacion de conjuntos \(\Sigma\)-p.r. como dominios
 
-**Enunciado.** Sea \(S\subseteq\omega^n\times\Sigma^{\ast m}\). Entonces \(S\) es \(\Sigma\)-p.r. sii \(S=D_F\) para alguna funcion \(\Sigma\)-p.r. \(F\).
+**Enunciado.** Un conjunto \(S\) es \(\Sigma\)-p.r. sii \(S\) es el dominio de alguna funcion \(\Sigma\)-p.r.
 
 **Demostracion.**
 
@@ -20,7 +20,7 @@ Suc,\ Pred,\ C_0^{0,0},\ C_\varepsilon^{0,0},\ d_a,\ p_j^{n,m}
 \]
 son \(\omega\), \(\mathbf N\), \(\{\diamond\}\), \(\Sigma^\ast\) o \(\omega^n\times\Sigma^{\ast m}\), todos \(\Sigma\)-p.r.
 
-Supongamos probado para \(PR_k^\Sigma\):
+Supongamos probado el resultado para \(PR_k^\Sigma\). Hacemos solo el caso de composicion del paso inductivo:
 \[
 F=g\circ[g_1,\ldots,g_r],\qquad g,g_1,\ldots,g_r\in PR_k^\Sigma.
 \]
@@ -45,4 +45,4 @@ Equivalente:
 \[
 \chi_{D_F}^{\omega^p\times\Sigma^{\ast q}}=\chi_T^{\omega^p\times\Sigma^{\ast q}}\land\left(\chi_{D_g}^{\omega^a\times\Sigma^{\ast b}}\circ[\overline g_1,\ldots,\overline g_{a+b}]\right).
 \]
-El lado derecho es \(\Sigma\)-p.r. por clausura por composicion y conectivos booleanos; por lo tanto \(D_F\) es \(\Sigma\)-p.r. Los otros constructores del paso inductivo se verifican desde la forma de sus dominios. En consecuencia, si \(S=D_F\) para alguna \(F\) \(\Sigma\)-p.r., entonces \(S\) es \(\Sigma\)-p.r.
+El lado derecho es \(\Sigma\)-p.r. por clausura por composicion y conectivos booleanos; por lo tanto \(D_F\) es \(\Sigma\)-p.r. \(\blacksquare\)

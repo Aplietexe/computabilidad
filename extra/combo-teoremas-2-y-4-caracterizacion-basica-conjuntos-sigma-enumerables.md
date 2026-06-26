@@ -1,6 +1,6 @@
-# Proposicion 6, guia 7: caso \(n=2,\ m=1\)
+# Proposicion: caracterizacion basica de conjuntos \(\Sigma\)-enumerables
 
-**Enunciado.** Sea \(S\subseteq\omega^2\times\Sigma^\ast\) no vacio. Son equivalentes:
+**Enunciado.** Sea \(S\subseteq\omega^n\times\Sigma^{\ast m}\) un conjunto no vacio. Entonces son equivalentes:
 
 **(1)** \(S\) es \(\Sigma\)-enumerable.
 
@@ -8,22 +8,22 @@
 
 **(a)** Para cada \(x\in\omega\), tenemos que \(\mathcal P\) se detiene partiendo desde el estado \(\lVert x\rVert\) y llega a un estado de la forma
 \[
-((x_1,x_2,y_1,\ldots),(\alpha_1,\beta_1,\ldots))
+((x_1,\ldots,x_n,y_1,\ldots),(\alpha_1,\ldots,\alpha_m,\beta_1,\ldots))
 \]
-donde \((x_1,x_2,\alpha_1)\in S\);
+donde \((x_1,\ldots,x_n,\alpha_1,\ldots,\alpha_m)\in S\).
 
-**(b)** Para cada \((x_1,x_2,\alpha_1)\in S\) hay un \(x\in\omega\) tal que \(\mathcal P\) se detiene partiendo desde el estado \(\lVert x\rVert\) y llega a un estado de la forma
+**(b)** Para cada \((x_1,\ldots,x_n,\alpha_1,\ldots,\alpha_m)\in S\) hay un \(x\in\omega\) tal que \(\mathcal P\) se detiene partiendo desde el estado \(\lVert x\rVert\) y llega a un estado de la forma
 \[
-((x_1,x_2,y_1,\ldots),(\alpha_1,\beta_1,\ldots)).
+((x_1,\ldots,x_n,y_1,\ldots),(\alpha_1,\ldots,\alpha_m,\beta_1,\ldots)).
 \]
 
-**Demostracion.**
+**Demostracion (caso \(n=2,\ m=1\)).**
 
-\((1)\Rightarrow(2)\). Sea \(F:\omega\to\omega^2\times\Sigma^\ast\) tal que \(I_F=S\) y
+\((1)\Rightarrow(2)\). Sea \(F:\omega\to\omega^2\times\Sigma^\ast\) tal que \(I_F=S\), con componentes
 \[
-F(x)=(F_{(1)}(x),F_{(2)}(x),F_{(3)}(x)),
+F_{(1)},F_{(2)}:\omega\to\omega,\qquad F_{(3)}:\omega\to\Sigma^\ast
 \]
-donde \(F_{(1)},F_{(2)}:\omega\to\omega\) y \(F_{(3)}:\omega\to\Sigma^\ast\) son \(\Sigma\)-computables. Por la Proposicion 5 de la Guia 7 (Primer Manantial de Macros) existen las asignaciones correspondientes. Tomemos
+\(\Sigma\)-computables. Por la Proposicion 5 de la Guia 7 (Primer Manantial de Macros) existen las asignaciones correspondientes. Tomemos
 \[
 \mathcal P\equiv
 \begin{array}{l}
@@ -34,7 +34,7 @@ donde \(F_{(1)},F_{(2)}:\omega\to\omega\) y \(F_{(3)}:\omega\to\Sigma^\ast\) son
 \]
 con variables auxiliares fuera de \(\mathrm{N}1,\mathrm{N}2,\mathrm{P}1\) y labels auxiliares disjuntos entre expansiones.
 
-Desde \(\lVert x\rVert\), la primera macro deja \(\mathrm{P}1=F_{(3)}(x)\) y preserva \(\mathrm{N}1=x\); la segunda deja \(\mathrm{N}2=F_{(2)}(x)\) y preserva \(\mathrm{N}1,\mathrm{P}1\); la tercera deja \(\mathrm{N}1=F_{(1)}(x)\) y preserva \(\mathrm{N}2,\mathrm{P}1\). Todas terminan porque las componentes de \(F\) son totales. Por lo tanto el estado final tiene primeras coordenadas \(F(x)\in S\), lo que prueba (a). Si \((x_1,x_2,\alpha_1)\in S=I_F\), existe \(x\in\omega\) con \(F(x)=(x_1,x_2,\alpha_1)\); el mismo calculo prueba (b).
+Desde \(\lVert x\rVert\), la primera macro deja \(\mathrm{P}1=F_{(3)}(x)\) y preserva \(\mathrm{N}1=x\); la segunda deja \(\mathrm{N}2=F_{(2)}(x)\) y preserva \(\mathrm{N}1,\mathrm{P}1\); la tercera deja \(\mathrm{N}1=F_{(1)}(x)\) y preserva \(\mathrm{N}2,\mathrm{P}1\). Todas terminan porque las componentes de \(F\) son totales. Por lo tanto el estado final tiene primeras coordenadas \((F_{(1)}(x),F_{(2)}(x),F_{(3)}(x))\in S\), lo que prueba (a). Si \((x_1,x_2,\alpha_1)\in S=I_F\), existe \(x\in\omega\) tal que \((F_{(1)}(x),F_{(2)}(x),F_{(3)}(x))=(x_1,x_2,\alpha_1)\); el mismo calculo prueba (b).
 
 \((2)\Rightarrow(1)\). Supongamos que \(\mathcal P\) cumple (a) y (b), y definamos
 \[
@@ -50,8 +50,8 @@ F_3=\Psi_{\mathcal P_3}^{1,0,\ast}.
 \]
 Por (a), \(\mathcal P\) se detiene para toda entrada \(x\), luego \(D_{F_i}=\omega\) para \(i=1,2,3\). Ademas cada \(F_i\) es \(\Sigma\)-computable, por estar computada por un programa de \(S^\Sigma\).
 
-Definimos \(F:\omega\to\omega^2\times\Sigma^\ast\) por
+Sea
 \[
-F(x)=(F_1(x),F_2(x),F_3(x)).
+F=[F_1,F_2,F_3].
 \]
-Si \(\mathcal P\), desde \(\lVert x\rVert\), termina con primeras coordenadas \((x_1,x_2,\alpha_1)\), entonces \(F(x)=(x_1,x_2,\alpha_1)\). Por (a), \(F(x)\in S\), asi que \(I_F\subseteq S\). Por (b), cada \((x_1,x_2,\alpha_1)\in S\) aparece como esas primeras coordenadas para algun \(x\in\omega\), y entonces es \(F(x)\); por lo tanto \(S\subseteq I_F\). Concluimos \(I_F=S\), y como las tres componentes de \(F\) son \(\Sigma\)-computables, \(S\) es \(\Sigma\)-enumerable. \(\blacksquare\)
+Entonces \(F:\omega\to\omega^2\times\Sigma^\ast\), \(D_F=\omega\) y \(F_{(i)}=F_i\) para \(i=1,2,3\). Si \(\mathcal P\), desde \(\lVert x\rVert\), termina con primeras coordenadas \((x_1,x_2,\alpha_1)\), entonces \(F_1(x)=x_1\), \(F_2(x)=x_2\) y \(F_3(x)=\alpha_1\). Por (a), el elemento de \(I_F\) asociado a \(x\) pertenece a \(S\), asi que \(I_F\subseteq S\). Por (b), cada \((x_1,x_2,\alpha_1)\in S\) aparece como esas primeras coordenadas para algun \(x\in\omega\), y entonces pertenece a \(I_F\); por lo tanto \(S\subseteq I_F\). Concluimos \(I_F=S\), y como las tres componentes de \(F\) son \(\Sigma\)-computables, \(S\) es \(\Sigma\)-enumerable. \(\blacksquare\)
